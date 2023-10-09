@@ -1,7 +1,7 @@
 function proyects(){
     return (
     <>
-
+<div className="container">
 <div className="row col g-3">
   <div className="col">
     <div className="card">
@@ -39,6 +39,7 @@ function proyects(){
       </div>
     </div>
   </div>
+</div>
 </div>
 </>
 )
