@@ -9,7 +9,7 @@ function App() {
     <>
       {/* seccion Hero */}
             <div className="col">
-              <h5>Franz Seidel </h5>
+              <h5>Franz Seidel Sánchez </h5>
               <h1>Desarrollador Frontend & Diseñador web </h1>
               <p>
                 Over the past 5 years I have been working with big eCommerce companies around the world.
