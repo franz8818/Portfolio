@@ -1,16 +1,21 @@
-/* CUERPO PRINCIPAL */
+/* --------------CUERPO PRINCIPAL--------------------------------------------------------------------------------------------- */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: rgba(229, 238, 227, 0.49);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
 }
 
-/* BARRA DE NAVEGACIÓN */
+.body{
+  background-color: #ebe4e4;
+}
+
+/* -----BARRA DE NAVEGACIÓN--------------------------------------------------------------------------------------------------- */
+
 .navbar {
-  max-width: 585px;
-  margin: auto;
-  background-color: ghostwhite;
+  max-width: 590px;
+  margin: 2em auto;
+  background-color: rgb(208, 216, 222);
   border-radius: 20px;
 }
 
@@ -19,44 +24,53 @@
   border-radius: 10px;
 }
 
+/* ------INTRODUCCIÓN------------------------------------------------------------------------------------------------------------ */
 
-/* SECCIÓN HERO */
-
-section {
+/* SE APLICA A TODOS LOS ELEMENTOS "SECTION" */
+.section {
   display: flex;
+  flex-direction: column; /* ELEMENTOS COLOCADOS EN EL EJE VERTICAL DENTRO DEL CONTENEDOR" */
+  align-items: center; /* DISTRIBUYE LOS ELEMENTOS EN EL CENTRO -> EJE PERPENDICULAR Y PRINCIPAL */
+  justify-content: center; /* DISTRIBUYER LOS ELEMENTOS EN EL EJE PRINCIPAL */
+}
+/* SECCIÓN HERO */
+.hero {
+  display: flex;
+  min-height: 450px;  /* ALTURA MINIMA -> PERMITIMOS QUE SE ESTIRE -> SE VE CORRECTAMENTE EN DISPOSITIVOS PEQUEÑOS  */
 }
 
-.hero {
-  min-height: 180vh;
+.hero-principal{
+  padding: 25rem;
+}
+
+.hero-principal h5 {
+   font-size: 2rem; 
+   color: #878a8f;
+   margin: 1rem;
+   font-family: 'Zilla Slab', serif;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  max-width: 550px;
-  margin: auto;
-}
-
-h5 {
-
-  line-height: 1.1;
-  max-width: 550px;
-
+  font-size: 5rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
+  line-height: 1.1; /* ESPECIOS ENTRE LINEAS */
+  max-width: 550px; /* ANCHO MAXIMO DEL ELEMENTO */
+  font-family: 'Zilla Slab', serif;
 }
 
 p {
-  font-weight: 500;
-  text-decoration: inherit;
-  max-width: 550px;
+  font-size: 2rem;
   margin: auto;
+  font-family: 'Zilla Slab', serif;
 }
 
-/* PORTRAIT - FOTO PERFIL */
+/* FOTO PERFIL */
 .portrait {
-  width: 400px;
+  width: 500px;
+  border-radius: 50%;
+  margin: 60px;
 }
 
-/* PROYECTS */
+/* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
 .card {
   width: 20rem;
 }

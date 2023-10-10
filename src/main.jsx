@@ -9,11 +9,9 @@ import './styles/styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
-    <div className="row"> 
     <App />
     <Proyects />
     <Contact />
-    </div>
   </React.StrictMode>,
 )
 
