@@ -15,16 +15,19 @@
 .navbar {
   max-width: 590px;
   margin: 2em auto;
-  background-color: rgb(208, 216, 222);
-  border-radius: 20px;
+  background-color: #e0e1dd;
+  border-radius: 15px;
 }
 
 /* BOTON DE CONTACTO */
-.contacto {
-  border-radius: 10px;
+.contact {
+  color: #E0E1DD;
+  background-color: #415A77;
+  border: 5px solid #415A77;
+  border-radius: 15px;
 }
 
-/* ------INTRODUCCIÓN------------------------------------------------------------------------------------------------------------ */
+/* ------HERO PRINCIPAL------------------------------------------------------------------------------------------------------------ */
 
 /* SE APLICA A TODOS LOS ELEMENTOS "SECTION" */
 .section {
@@ -40,7 +43,7 @@
 }
 
 .hero-principal{
-  padding: 25rem;
+  padding: 2rem;
 }
 
 .hero-principal h5 {
@@ -60,7 +63,7 @@ h1 {
 p {
   font-size: 2rem;
   margin: auto;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Karla', sans-serif;
 }
 
 /* FOTO PERFIL */
@@ -71,10 +74,29 @@ p {
 }
 
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
-.card {
-  width: 20rem;
+.proyects {
+  padding: 40px;
 }
 
-.info-card p{ 
-  font-size: auto;
+.card {
+  width: 30rem;
+  height: 30rem;
+  background-color: #e0e1dd;
+  border: 3px solid #1B263B;
+  border-radius: 15px;
+  padding: auto;
+}
+
+.img-proyects{
+  border-radius: 15px 15px 0px 0px; 
+}
+
+.card-text { 
+  font-size: 1.5rem;
+}
+
+/* ------SOBRE MÍ------------------------------------------------------------------------------------------------------------ */
+
+.wall-dark {
+  background-color: rgb(208, 216, 222);
 }

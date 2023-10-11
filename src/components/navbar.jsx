@@ -13,7 +13,7 @@ return (
           <a className="nav-link active" aria-current="page" href="#">Proyectos</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Acerca de mí</a>
+          <a className="nav-link" href="#">Sobre de mí</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Linkedin</a>
@@ -22,7 +22,7 @@ return (
           <a className="nav-link" href="#">GitHub</a>
         </li>
         <li className="nav-item">
-        <button type="button" className="contacto  btn btn-primary btn-sm">Contacto</button>
+        <button type="button" className="contact btn btn-light btn-sm">Contacto</button>
         </li>
       </ul>
     </div>
