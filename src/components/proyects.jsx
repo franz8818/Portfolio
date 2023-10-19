@@ -3,8 +3,8 @@ function proyects() {
     <>
       <section className="proyects">
         <div className="container">
-          <div className="row text-center">
-            <div className="col-12 col-md-4">
+          <div className="row proyects-container">
+            <div className="col-12 col-md-8 col-lg-4">
               <div className="card">
                 <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
@@ -14,7 +14,7 @@ function proyects() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-8 col-lg-4">
               <div className="card">
                 <img className="img-proyects img-fluid" src="https://picsum.photos/200" alt="StarWars blog" />
                 <div className="card-body">
@@ -23,7 +23,7 @@ function proyects() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-8 col-lg-4">
               <div className="card">
                 <img className="img-proyects img-fluid" src="https://picsum.photos/200" alt="StarWars API Fetch" />
                 <div className="card-body">

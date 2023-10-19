@@ -1,10 +1,9 @@
 /* --------------CUERPO PRINCIPAL--------------------------------------------------------------------------------------------- */
 #root {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
 
 .body{
   background-color: #ebe4e4;
@@ -50,14 +49,16 @@
    font-size: 2rem; 
    color: #878a8f;
    margin: 1rem;
-   font-family: 'Zilla Slab', serif;
+   font-family: 'Karla', sans-serif;
+   
 }
+
 
 h1 {
   font-size: 5rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
   line-height: 1.1; /* ESPECIOS ENTRE LINEAS */
   max-width: 550px; /* ANCHO MAXIMO DEL ELEMENTO */
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Karla', sans-serif;
 }
 
 p {
@@ -68,12 +69,25 @@ p {
 
 /* FOTO PERFIL */
 .portrait {
-  width: 500px;
+  /* width: 500px; */
   border-radius: 50%;
-  margin: 60px;
+  /* margin: 60px; */
+  width: 100%; /* Haz que la imagen ocupe el ancho completo del contenedor */
+  max-width: 400px; /* Establece un ancho máximo para la imagen si es necesario */
+  margin: 0 auto 20px; /* Centra la imagen horizontalmente y agrega margen en la parte inferior */
 }
 
+
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
+
+.proyects-container {
+  display: flex;
+  
+  align-items: center; /* Para centrar las tarjetas horizontalmente */
+  text-align: center; /* Para centrar el contenido de las tarjetas */
+}
+
+
 .proyects {
   padding: 40px;
 }
@@ -82,8 +96,8 @@ p {
   width: 30rem;
   height: 30rem;
   background-color: #e0e1dd;
-  border: 3px solid #1B263B;
-  border-radius: 15px;
+  border: 2px solid #1B263B;
+  border-radius: 20px;
   max-width: 100%; /* Para que las tarjetas ocupen el ancho completo en dispositivos pequeños */
   margin-bottom: 20px; /* Agrega espacio entre las tarjetas */
 }
@@ -100,4 +114,37 @@ p {
 
 .wall-dark {
   background-color: rgb(208, 216, 222);
+}
+
+/* ------RESPONSIVE---------------------------------------------------------------------------------------------------------- */
+
+/* Breakpoint <576px */
+/* NAVBAR */
+@media (max-width: 576px) {
+  .navbar {
+    margin-left: 10px; /* Agrega un margen izquierdo de 10px */
+    margin-right: 10px; /* Agrega un margen derecho de 10px */
+  }
+}
+
+/* Breakpoint <992px */
+/* APP.JSX */
+
+/* Breakpoint <992px */
+@media (max-width: 992px) {
+  .hero-principal {
+    flex-direction: column; /* Mantener la dirección de fila (por defecto) */
+    text-align: center; /* Centra el texto en el eje horizontal */
+  }
+
+  .portrait {
+    order: 0; /* Cambia el orden para que la imagen aparezca antes del <h5> en el flujo del documento */
+  }
+}
+
+/* Breakpoint <768px */
+@media (max-width: 768px) {
+  .portrait {
+    order: 2; /* Cambia el orden de nuevo para que la imagen aparezca después del <h5> en pantallas pequeñas */
+  }
 }
