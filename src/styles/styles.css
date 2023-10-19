@@ -84,7 +84,8 @@ p {
   background-color: #e0e1dd;
   border: 3px solid #1B263B;
   border-radius: 15px;
-  padding: auto;
+  max-width: 100%; /* Para que las tarjetas ocupen el ancho completo en dispositivos pequeños */
+  margin-bottom: 20px; /* Agrega espacio entre las tarjetas */
 }
 
 .img-proyects{
@@ -95,7 +96,7 @@ p {
   font-size: 1.5rem;
 }
 
-/* ------SOBRE MÍ------------------------------------------------------------------------------------------------------------ */
+/* ------SOBRE MÍ---------------------------------------------------------------------------------------------------------- */
 
 .wall-dark {
   background-color: rgb(208, 216, 222);

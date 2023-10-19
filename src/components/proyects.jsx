@@ -2,11 +2,11 @@ function proyects() {
   return (
     <>
       <section className="proyects">
-        <div className="container-fluid">
-          <div className="row justify-content-center">
+        <div className="container">
+          <div className="row text-center">
             <div className="col-12 col-md-4">
               <div className="card">
-                <img className="img-proyects img-fluid" src="https://picsum.photos/200" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
+                <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title">Where2Do</h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
