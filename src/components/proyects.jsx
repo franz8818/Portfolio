@@ -4,6 +4,7 @@ function proyects() {
       <section className="proyects">
         <div className="container">
           <div className="row proyects-container">
+            <h2>Proyectos</h2>
             <div className="col-12 col-md-8 col-lg-4">
               <div className="card">
                 <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}

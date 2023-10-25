@@ -53,25 +53,31 @@
    
 }
 
+h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
 
 h1 {
-  font-size: 5rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
+  font-size: 4.5rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
   line-height: 1.1; /* ESPECIOS ENTRE LINEAS */
   max-width: 550px; /* ANCHO MAXIMO DEL ELEMENTO */
   font-family: 'Karla', sans-serif;
+  font-weight: 400;
 }
 
 p {
   font-size: 2rem;
   margin: auto;
   font-family: 'Karla', sans-serif;
+  font-weight: 200;
 }
 
 /* FOTO PERFIL */
 .portrait {
-  /* width: 500px; */
-  border-radius: 50%;
-  /* margin: 60px; */
+  width: 500px;
+  /* border-radius: 50%; */
+  margin: 60px;
   width: 100%; /* Haz que la imagen ocupe el ancho completo del contenedor */
   max-width: 400px; /* Establece un ancho máximo para la imagen si es necesario */
   margin: 0 auto 20px; /* Centra la imagen horizontalmente y agrega margen en la parte inferior */
@@ -82,7 +88,6 @@ p {
 
 .proyects-container {
   display: flex;
-  
   align-items: center; /* Para centrar las tarjetas horizontalmente */
   text-align: center; /* Para centrar el contenido de las tarjetas */
 }
@@ -90,6 +95,10 @@ p {
 
 .proyects {
   padding: 40px;
+}
+
+h2 {
+font-size: 4rem;
 }
 
 .card {
@@ -107,7 +116,9 @@ p {
 }
 
 .card-text { 
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
 }
 
 /* ------SOBRE MÍ---------------------------------------------------------------------------------------------------------- */
@@ -118,8 +129,9 @@ p {
 
 /* ------RESPONSIVE---------------------------------------------------------------------------------------------------------- */
 
+/* ------------------------------ NAVBAR -------------------------------- */
+
 /* Breakpoint <576px */
-/* NAVBAR */
 @media (max-width: 576px) {
   .navbar {
     margin-left: 10px; /* Agrega un margen izquierdo de 10px */
@@ -127,24 +139,37 @@ p {
   }
 }
 
-/* Breakpoint <992px */
-/* APP.JSX */
+/* ------------------------------ APP.JSX ------------------------------ */
 
-/* Breakpoint <992px */
-@media (max-width: 992px) {
+/* Breakpoint <1023px */
+@media (max-width: 1023px) {
   .hero-principal {
-    flex-direction: column; /* Mantener la dirección de fila (por defecto) */
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    align-items: center; /* Centra los elementos en el eje vertical */
     text-align: center; /* Centra el texto en el eje horizontal */
   }
-
-  .portrait {
-    order: 0; /* Cambia el orden para que la imagen aparezca antes del <h5> en el flujo del documento */
+  .hero-principal > div {
+    width: 100%; /* Hace que los elementos ocupen todo el ancho de la página */
+    padding: 0 80px; /* Agrega espacio a los lados de los elementos para que no estén pegados a los bordes */
   }
+  .hero-principal h1 {
+    /* Ajusta el ancho máximo y el margen para centrar el h1 */
+    max-width: none; /* Elimina el ancho máximo para permitir que el h1 ocupe el ancho completo */
+    margin: 20px auto; /* Ajusta el margen para centrar el h1 verticalmente */
+  }
+  .hero-principal p {
+    margin-top: -80px; /* Reduzca el margen superior del párrafo */
+  }
+  .hero-principal img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-top: -60px; /* Reduzca el margen superior de la imagen */
+    margin-bottom: -70px; /* Reduzca el margen inferior de la imagen */
+  }
+  
+
 }
 
-/* Breakpoint <768px */
-@media (max-width: 768px) {
-  .portrait {
-    order: 2; /* Cambia el orden de nuevo para que la imagen aparezca después del <h5> en pantallas pequeñas */
-  }
-}
+
+
