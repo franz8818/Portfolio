@@ -9,7 +9,7 @@ function App() {
       {/* seccion Hero */}
       <section className="hero align-items-stretch">
         <div className="hero-principal d-flex justify-content-center row py-5">
-          <div className="col-12 col-md-6 py-5">
+          <div className="col-12 col-md-6 py-1">
             <h5>Franz Seidel</h5>
             <h1>Desarrollador Frontend & Diseñador web</h1>
             <p className="mt-5">
