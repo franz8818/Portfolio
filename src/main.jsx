@@ -8,12 +8,14 @@ import Proyects from './components/proyects.jsx'
 import './styles/styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Navbar />
-    <App />
-    <Proyects />
-    <Study/> 
-    {/* <Contact /> */}
+<React.StrictMode>
+      <Navbar />
+    <div className="container">
+      <App />
+      <Proyects />
+      <Study />
+      {/* <Contact /> */}
+    </div>
   </React.StrictMode>,
-)
+);
 

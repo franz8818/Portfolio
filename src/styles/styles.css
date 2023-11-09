@@ -5,6 +5,11 @@
     min-height: 100vh;
   }
 
+  .container {
+    max-width: 3840px; /* Puedes ajustar según tus necesidades */
+    padding: 0px 50px 20px; /* Agrega espacio interno si es necesario */
+  }
+
 .body{
   background-color: #ebe4e4;
 }
@@ -42,7 +47,7 @@
 }
 
 .hero-principal{
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .hero-principal h5 {
@@ -67,7 +72,7 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 10px;
   margin: auto;
   font-family: 'Karla', sans-serif;
   font-weight: 200;
@@ -139,42 +144,192 @@ font-size: 3.3rem;
 
 /* ------------------------------ APP.JSX ------------------------------ */
 
-/* Breakpoint <1023px */
-@media (max-width: 1023px) {
+/* --------------CUERPO PRINCIPAL--------------------------------------------------------------------------------------------- */
+#root {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.body{
+  background-color: #ebe4e4;
+}
+
+/* -----BARRA DE NAVEGACIÓN--------------------------------------------------------------------------------------------------- */
+
+.navbar {
+  max-width: 590px;
+  margin: 2em auto;
+  background-color: #e0e1dd;
+  border-radius: 15px;
+}
+
+/* BOTON DE CONTACTO */
+.contact {
+  color: #E0E1DD;
+  background-color: #415A77;
+  border: 5px solid #415A77;
+  border-radius: 15px;
+}
+
+/* ------HERO PRINCIPAL------------------------------------------------------------------------------------------------------------ */
+
+/* SE APLICA A TODOS LOS ELEMENTOS "SECTION" */
+.section {
+  display: flex;
+  flex-direction: column; /* ELEMENTOS COLOCADOS EN EL EJE VERTICAL DENTRO DEL CONTENEDOR" */
+  align-items: center; /* DISTRIBUYE LOS ELEMENTOS EN EL CENTRO -> EJE PERPENDICULAR Y PRINCIPAL */
+  justify-content: center; /* DISTRIBUYER LOS ELEMENTOS EN EL EJE PRINCIPAL */
+}
+/* SECCIÓN HERO */
+.hero {
+  display: flex;
+  min-height: 450px;  /* ALTURA MINIMA -> PERMITIMOS QUE SE ESTIRE -> SE VE CORRECTAMENTE EN DISPOSITIVOS PEQUEÑOS  */
+}
+
+.hero-principal{
+  padding: 2rem;
+}
+
+.hero-principal h5 {
+   font-size: 2rem; 
+   color: #878a8f;
+   margin: 1rem;
+   font-family: 'Karla', sans-serif;
+   
+}
+
+h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4.0rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
+  line-height: 1.1; /* ESPECIOS ENTRE LINEAS */
+  max-width: 550px; /* ANCHO MAXIMO DEL ELEMENTO */
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus preferencias */
+}
+
+p {
+  font-size: 30px;
+  margin: auto;
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
+
+/* FOTO PERFIL */
+.portrait {
+  width: 500px;
+  /* border-radius: 50%; */
+  margin: 60px;
+  width: 100%; /* Haz que la imagen ocupe el ancho completo del contenedor */
+  max-width: 400px; /* Establece un ancho máximo para la imagen si es necesario */
+  margin: 0 auto 20px; /* Centra la imagen horizontalmente y agrega margen en la parte inferior */
+  padding: 0px;
+}
+
+
+/* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
+
+.proyects-container {
+  display: flex;
+  align-items: center; /* Para centrar las tarjetas horizontalmente */
+  text-align: center; /* Para centrar el contenido de las tarjetas */
+}
+
+.proyects {
+  padding: 40px;
+}
+
+h2 {
+font-size: 3.3rem;
+}
+
+.card {
+  background-color: #e0e1dd;
+  border: 2px solid #1B263B;
+  border-radius: 20px;
+  max-width: 100%; /* Para que las tarjetas ocupen el ancho completo en dispositivos pequeños */
+  margin-bottom: 20px; /* Agrega espacio entre las tarjetas */
+}
+
+.img-proyects{
+  border-radius: 15px 15px 0px 0px; 
+}
+
+.card-text { 
+  font-size: 1.4rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
+
+/* ------SOBRE MÍ---------------------------------------------------------------------------------------------------------- */
+
+.wall-dark {
+  background-color: rgb(208, 216, 222);
+}
+
+/* ------RESPONSIVE---------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------ NAVBAR -------------------------------- */
+
+/* Breakpoint <576px */
+@media screen and (max-width: 576px) {
+  .navbar {
+    margin-left: 10px; /* Agrega un margen izquierdo de 10px */
+    margin-right: 10px; /* Agrega un margen derecho de 10px */
+  }
+}
+
+/* ------------------------------ APP.JSX ------------------------------ */
+
+
+/* Breakpoint <1200px */
+@media screen and (max-width: 1200px) {
   .hero-principal {
     display: flex;
-    flex-direction: column; /* Cambia la dirección de los elementos a columna */
-    align-items: center; /* Centra los elementos en el eje vertical */
-    text-align: center; /* Centra el texto en el eje horizontal */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
   .hero-principal > div {
-    width: 100%; /* Hace que los elementos ocupen todo el ancho de la página */
-    padding: 0 80px; /* Agrega espacio a los lados de los elementos para que no estén pegados a los bordes */
+    width: 100%;
+    padding: 0 20px; /* Reduzco el espacio a los lados para un mejor ajuste */
   }
+
   .hero-principal h1 {
-    /* Ajusta el ancho máximo y el margen para centrar el h1 */
-    max-width: none; /* Elimina el ancho máximo para permitir que el h1 ocupe el ancho completo */
-    margin: 20px auto; /* Ajusta el margen para centrar el h1 verticalmente */
+    max-width: 100%; /* Ocupa el ancho completo */
+    font-size: 3rem; /* Tamaño de fuente más pequeño para adaptarse mejor */
+    margin: 10px auto 20px; /* Ajuste en el margen superior e inferior */
   }
+
+  .hero-principal h5 {
+    margin: 10px auto; /* Ajuste en el margen superior e inferior */
+  }
+
   .hero-principal p {
-    margin-top: -80px; /* Reduzca el margen superior del párrafo */
+    margin-top: -20px; /* Ajuste en el margen superior */
+    margin-bottom: 20px; /* Ajuste en el margen inferior */
   }
-  .hero-principal img {
+
+  .hero-principal img.portrait {
     display: block;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    margin-top: -20px; /* Reduzca el margen superior de la imagen */
-    margin-bottom: -70px; /* Reduzca el margen inferior de la imagen */
+    margin: 0 auto;
+    margin-top: -10px; /* Ajuste para la imagen */
+    margin-bottom: -30px;
   }
 
-  /* Establece un margen superior más pequeño para los elementos que deseas mover hacia arriba */
   .hero-principal h5, .hero-principal h1, .hero-principal p, .portrait {
-    margin-top: 0px; /* Ajusta el valor según tus preferencias */
-
+    margin-top: 0; /* Resetear el margen superior */
   }
 }
 
 /* ------------------------------ PROYECTS.JSX ------------------------------ */
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .proyects-container {
     display: flex;
     flex-direction: column;
