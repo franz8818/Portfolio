@@ -2,8 +2,7 @@ function proyects() {
   return (
     <>
       <section className="proyects">
-        <div className="container">
-          <div className="row proyects-container">
+          <div className="row text-center">
             <h2>Proyectos</h2>
             <div className="col-12 py-4">
               <div className="card">
@@ -34,7 +33,6 @@ function proyects() {
               </div>
             </div>
           </div>
-        </div>
       </section>
     </>
   )

@@ -1,0 +1,156 @@
+/* ------RESPONSIVE---------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------ NAVBAR -------------------------------- */
+
+/* Breakpoint <600px */
+@media screen and (max-width: 600px) {
+    .navbar {
+        margin-left: 10px;
+        /* Agrega un margen izquierdo de 10px */
+        margin-right: 10px;
+        /* Agrega un margen derecho de 10px */
+        margin-bottom: 5px;
+    }
+}
+
+/* ------------------------------ APP.JSX ------------------------------ */
+
+/* Breakpoint <480px */
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        margin-bottom: 5px;
+    }
+
+    .hero-principal {
+        padding: 1rem;
+    }
+
+    .hero-principal h1 {
+        font-size: 1rem;
+        /* Tamaño de fuente más pequeño para adaptarse mejor */
+    }
+
+    .hero-principal h5 {
+        font-size: 1.8rem;
+        /* Ajusta el tamaño de la fuente según tus preferencias */
+        margin: 0.8rem 0.8rem;
+    }
+
+    .hero-principal p {
+        margin-top: -10px;
+        /* Ajuste en el margen superior */
+        margin-bottom: 20px;
+        /* Ajuste en el margen inferior */
+        font-size: 1.5rem;
+    }
+
+    .hero-principal img.portrait {
+        width: 300px;
+        /* Establece el ancho de la imagen */
+        height: auto;
+        /* Mantiene la proporción original de la imagen ajustando automáticamente la altura */
+        padding: 5px;
+    }
+
+    .proyects{
+        padding: 5px 25px; 
+    }
+
+    .proyects h2 {
+        font-size: 2.0rem;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .info {
+        padding: 15px;
+    }
+
+    .info p {
+        font-size: 1.5em;
+    }
+}
+
+
+/* Breakpoint <993px */
+@media screen and (max-width: 993px) {
+    .hero-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro { 
+        order: 2;
+    }
+
+    .franz {
+        order: 1;
+    }
+
+    .hero-principal>div {
+        width: 100%;
+        padding: 0 20px;
+        /* Reduzco el espacio a los lados para un mejor ajuste */
+    }
+
+    .hero-principal h1 {
+        max-width: 100%;
+        /* Ocupa el ancho completo */
+        font-size: 2.5rem;
+        /* Tamaño de fuente más pequeño para adaptarse mejor */
+        margin: 10px auto 20px;
+        /* Ajuste en el margen superior e inferior */
+    }
+
+    .hero-principal h5 {
+        margin: 10px; 
+        /* Ajuste en el margen superior e inferior */
+    }
+
+    .hero-principal p {
+        margin-top: -20px;
+        /* Ajuste en el margen superior */
+        margin-bottom: 20px;
+        /* Ajuste en el margen inferior */
+    }
+
+    .hero-principal img.portrait {
+        display: block;
+        margin: 0 auto;
+        margin-top: -10px;
+        /* Ajuste para la imagen */
+        margin-bottom: -30px;
+        padding: 5px;
+    }
+
+    .hero-principal h5,
+    .hero-principal h1,
+    .hero-principal p,
+    .portrait {
+        margin-top: 10;
+        /* Resetear el margen superior */
+    }
+}
+
+/* ------------------------------ PROYECTS.JSX ------------------------------ */
+@media screen and (max-width: 1023px) {
+    .proyects-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 45rem;
+        height: auto;
+        background-color: #e0e1dd;
+        border: 2px solid #1B263B;
+        border-radius: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        /* Esta propiedad centra horizontalmente */
+        margin-bottom: 20px;
+    }
+}

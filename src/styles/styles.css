@@ -1,24 +1,19 @@
 /* --------------CUERPO PRINCIPAL--------------------------------------------------------------------------------------------- */
+
+body{
+  background-color:whitesmoke
+}
+
 #root {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-
-  .container {
-    max-width: 3840px; /* Puedes ajustar según tus necesidades */
-    padding: 0px 50px 20px; /* Agrega espacio interno si es necesario */
-  }
-
-.body{
-  background-color: #ebe4e4;
+  overflow-x: hidden;
+  /* Elimina la scroll horizontal */
 }
 
 /* -----BARRA DE NAVEGACIÓN--------------------------------------------------------------------------------------------------- */
 
 .navbar {
-  max-width: 590px;
-  height: 70px;
+  max-width: 580px;
+  height: 60px;
   margin: 2em auto;
   background-color: #e0e1dd;
   border-radius: 15px;
@@ -65,9 +60,12 @@ h5 {
 }
 
 h1 {
-  font-size: 4.5rem; /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
-  line-height: 1.1; /* ESPECIOS ENTRE LINEAS */
-  max-width: 550px; /* ANCHO MAXIMO DEL ELEMENTO */
+  font-size: 4.5rem; 
+  /* rem -> DIMENCIÓN RELATIVA AL TAMAÑO DE LA LETRA(ELEMENTO RAIZ) "5 VECES EL TAMAÑO RAIZ"    */
+  line-height: 1.1; 
+  /* ESPECIOS ENTRE LINEAS */
+  max-width: 550px; 
+  /* ANCHO MAXIMO DEL ELEMENTO */
   font-family: 'Karla', sans-serif;
   font-weight: 400;
 }
@@ -81,12 +79,14 @@ p {
 
 /* FOTO PERFIL */
 .portrait {
-  width: 500px;
+  width: 00px;
   /* border-radius: 50%; */
   margin: 60px;
   width: 100%; /* Haz que la imagen ocupe el ancho completo del contenedor */
   max-width: 400px; /* Establece un ancho máximo para la imagen si es necesario */
   margin: 0 auto 20px; /* Centra la imagen horizontalmente y agrega margen en la parte inferior */
+  overflow: hidden; /* O 'auto' o 'scroll' según tus necesidades */
+  
 }
 
 
@@ -271,79 +271,4 @@ font-size: 3.3rem;
 
 .wall-dark {
   background-color: rgb(208, 216, 222);
-}
-
-/* ------RESPONSIVE---------------------------------------------------------------------------------------------------------- */
-
-/* ------------------------------ NAVBAR -------------------------------- */
-
-/* Breakpoint <576px */
-@media screen and (max-width: 600px) {
-  .navbar {
-    margin-left: 15px; /* Agrega un margen izquierdo de 10px */
-    margin-right: 15px; /* Agrega un margen derecho de 10px */
-  }
-}
-
-/* ------------------------------ APP.JSX ------------------------------ */
-
-
-/* Breakpoint <1200px */
-@media screen and (max-width: 1200px) {
-  .hero-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero-principal > div {
-    width: 100%;
-    padding: 0 20px; /* Reduzco el espacio a los lados para un mejor ajuste */
-  }
-
-  .hero-principal h1 {
-    max-width: 100%; /* Ocupa el ancho completo */
-    font-size: 3rem; /* Tamaño de fuente más pequeño para adaptarse mejor */
-    margin: 10px auto 20px; /* Ajuste en el margen superior e inferior */
-  }
-
-  .hero-principal h5 {
-    margin: 10px auto; /* Ajuste en el margen superior e inferior */
-  }
-
-  .hero-principal p {
-    margin-top: -20px; /* Ajuste en el margen superior */
-    margin-bottom: 20px; /* Ajuste en el margen inferior */
-  }
-
-  .hero-principal img.portrait {
-    display: block;
-    margin: 0 auto;
-    margin-top: -10px; /* Ajuste para la imagen */
-    margin-bottom: -30px;
-  }
-
-  .hero-principal h5, .hero-principal h1, .hero-principal p, .portrait {
-    margin-top: 0; /* Resetear el margen superior */
-  }
-}
-
-/* ------------------------------ PROYECTS.JSX ------------------------------ */
-@media screen and (max-width: 1023px) {
-  .proyects-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .card {
-    width: 45rem;
-    height: auto;
-    background-color: #e0e1dd;
-    border: 2px solid #1B263B;
-    border-radius: 20px;
-    max-width: 100%;
-    margin: 0 auto; /* Esta propiedad centra horizontalmente */
-    margin-bottom: 20px;
-  }
 }
