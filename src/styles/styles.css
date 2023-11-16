@@ -14,19 +14,11 @@
   display: table;
 } */
 
-.retrato {
-  background-color: brown;
-}
-
-.intro{
-  background-color: rgb(118, 165, 42);
-}
-
-/* -----BARRA DE NAVEGACIÓN--------------------------------------------------------------------------------------------------- */
+/* -----NAVBAR--------------------------------------------------------------------------------------------------- */
 
 .navbar {
   max-width: 515px; /* Ancho maximo */
-  margin: 20px auto; /* Margen de arriba-abajo & margen al centro */
+  margin: 40px auto; /* Margen de arriba-abajo & margen al centro */
   background-color: #e0e1dd; /* Fondo del nav */
   border-radius: 15px; /* Borde circular */
   font-family: 'Karla', sans-serif; /* Tipografía */
@@ -40,4 +32,56 @@
   border: 5px solid #415A77; /* Borde solido*/
   border-radius: 15px; /* Borde circular */
   margin-left: 10px; /* Derecha a Izquierda */
+}
+
+/* -----HERO--------------------------------------------------------------------------------------------------- */
+
+.hero {
+  margin: 80px 50px;
+}
+
+
+.hero-principal h4{
+  color: var( --color-shadow);
+  font-weight: 700;
+  text-align: left;
+}
+
+.hero-principal h1{
+font-weight: 700;
+font-size: 2.8em; /* Tamaño tipografía */
+text-align: left;
+}
+
+.hero-principal p{
+  color: var( --color-shadow);
+  font-weight: 500;
+  font-size: 1.5em; /* Tamaño tipografía */
+  text-align: left;
+  }
+
+  /* FOTO PERFIL */
+.perfil {
+  max-width: 400px;
+  /* Establece un ancho máximo para la imagen si es necesario */
+}
+
+/* -----TECHS--------------------------------------------------------------------------------------------------- */
+
+.techs {
+  padding: auto ; /* Ajusta el relleno para separar el contenido del borde */
+  
+}
+
+.tech-icons img {
+    max-width: 60%; /* Establece el ancho máximo al 100% del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.icon-box {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid var(--color-shadow);
+  border-radius: 15px;
+  width: calc(25% - 70px); /* Calcula el 25% del ancho con márgenes */
 }

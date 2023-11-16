@@ -1,6 +1,23 @@
 /* -----MEDIA:QUERYS--------------------------------------------------------------------------------------------------- */
 
-/* ------------------------------ NAVBAR -------------------------------- */
+@media screen and (max-width: 400px) {
+    
+    .hero {
+        margin: 0; /* Establece el margen a cero para quitarlo */
+    }
+
+    .hero-principal {
+        justify-content: center; /* Para centrar */
+        /* O puedes usar: justify-content: flex-start; para alinear a la izquierda */
+    }
+    
+    
+    .hero-principal h1 {
+        font-size: 2em;
+    }
+    
+}
+
 
 /* Breakpoint <600px */
 @media screen and (max-width: 600px) {
@@ -8,11 +25,36 @@
     .navbar {
         margin: 20px;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
+
+        align-items: center;
+        /* Se centran los elementos */
     }
 }
 
+/* Breakpoint <993px */
 @media screen and (max-width: 993px) {
 
+    .navbar-collapse {
+        text-align: center; /* Centra el contenido del menú */
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        /* Centra el contenido horizontalmente */
+        display: table;
+        /* Hace que el margin: auto funcione */
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    /* ------------------------------ HERO PRINCIPAL -------------------------------- */
+
+    .hero{
+        margin: 40px 50px;
+    }
+    
     .hero-principal {
         flex-direction: column;
         /* Se colocan uno encima del otro */
@@ -22,11 +64,16 @@
 
     .intro {
         order: 2;
+        width: 100%; /* Ancho que ocupa el DIV */
+
     }
 
-    .retrato {
+    .retrato img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
+        max-width: 100%;
+        /* Ancho que ocupa el DIV */
+        margin-bottom: 50px;
+        /* Aumenta el margen de abajo */
     }
-
 }
