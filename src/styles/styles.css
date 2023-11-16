@@ -41,7 +41,7 @@
 }
 
 
-.hero-principal h4{
+.hero-principal h3{
   color: var( --color-shadow);
   font-weight: 700;
   text-align: left;
@@ -49,14 +49,14 @@
 
 .hero-principal h1{
 font-weight: 700;
-font-size: 2.8em; /* Tamaño tipografía */
+font-size: 3.8em; /* Tamaño tipografía */
 text-align: left;
 }
 
 .hero-principal p{
   color: var( --color-shadow);
   font-weight: 500;
-  font-size: 1.5em; /* Tamaño tipografía */
+  font-size: 1.8em; /* Tamaño tipografía */
   text-align: left;
   }
 
@@ -69,12 +69,12 @@ text-align: left;
 /* -----TECHS--------------------------------------------------------------------------------------------------- */
 
 .techs {
-  padding: auto ; /* Ajusta el relleno para separar el contenido del borde */
-  
+  margin-top: 80px; /* Ajusta el valor según sea necesario */
+  margin-bottom: 30px; /* Ajusta el valor según sea necesario */
 }
 
 .tech-icons img {
-    max-width: 60%; /* Establece el ancho máximo al 100% del contenedor */
+    max-width: 70%; /* Establece el ancho máximo al 100% del contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 
@@ -84,4 +84,5 @@ text-align: left;
   border: 2px solid var(--color-shadow);
   border-radius: 15px;
   width: calc(25% - 70px); /* Calcula el 25% del ancho con márgenes */
+  background-color: white; /* Agrega un fondo blanco */
 }

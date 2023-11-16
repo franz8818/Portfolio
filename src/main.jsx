@@ -13,8 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar />
     <div className="container text-center">
       <App />
-      <Techs />
       <Proyects />
+      <Techs />
       {/* <Contact /> */}
     </div>
   </React.StrictMode>,

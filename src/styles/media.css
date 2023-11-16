@@ -1,19 +1,42 @@
 /* -----MEDIA:QUERYS--------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 400px) {
-    
+@media screen and (max-width: 430px) {
+
     .hero {
-        margin: 0; /* Establece el margen a cero para quitarlo */
+        margin: 0;
+        /* Establece el margen a cero para quitarlo */
     }
 
     .hero-principal {
-        justify-content: center; /* Para centrar */
-        /* O puedes usar: justify-content: flex-start; para alinear a la izquierda */
+        justify-content: center;
+        /* Para centrar */
     }
-    
-    
+
+    .hero-principal h3 {
+        font-size: 1.3em;
+    }
+
     .hero-principal h1 {
-        font-size: 2em;
+        font-size: 2.1em;
+    }
+
+    .hero-principal p {
+        font-size: 1.2em;
+        margin: 20px 0px 0px 0px;
+        /* margen arriba | margen derecha | margen abajo | margen izquierda */
+    }
+
+
+    .cards-proyects {
+        flex-direction: column;
+        /* Se colocan uno encima del otro */
+        align-items: center;
+        /* Se centran los elementos */
+    }
+
+    .card{
+        margin-top: 10px; /* Ajusta el valor según sea necesario */
+        margin-bottom: 20px; /* Ajusta el valor según sea necesario */
     }
     
 }
@@ -23,7 +46,7 @@
 @media screen and (max-width: 600px) {
 
     .navbar {
-        margin: 20px;
+        margin: 30px ; 
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
 
         align-items: center;
@@ -31,11 +54,14 @@
     }
 }
 
+
+
 /* Breakpoint <993px */
 @media screen and (max-width: 993px) {
 
     .navbar-collapse {
-        text-align: center; /* Centra el contenido del menú */
+        text-align: center;
+        /* Centra el contenido del menú */
     }
 
     .navbar-nav {
@@ -51,10 +77,10 @@
 
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
-    .hero{
+    .hero {
         margin: 40px 50px;
     }
-    
+
     .hero-principal {
         flex-direction: column;
         /* Se colocan uno encima del otro */
@@ -64,7 +90,8 @@
 
     .intro {
         order: 2;
-        width: 100%; /* Ancho que ocupa el DIV */
+        width: 100%;
+        /* Ancho que ocupa el DIV */
 
     }
 
@@ -76,4 +103,5 @@
         margin-bottom: 50px;
         /* Aumenta el margen de abajo */
     }
+
 }
