@@ -1,28 +1,43 @@
-@import "colors.css";
-@import "common.css";
+/* -----VISTA GENERAL--------------------------------------------------------------------------------------------------- */
+
+.container {
+  max-width: 1200px;
+  /* Ancho maximo */
+  margin: 0 auto;
+  /* Se centra */
+}
+
+/* CONTENEDOR DE LIMPIEZA: se utiliza para manejar problemas relacionados con el diseño y la flotación de elementos, especialmente cuando se trabaja con grillas y elementos flotantes en CSS. */
+/* .row::after{
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.retrato {
+  background-color: brown;
+}
+
+.intro{
+  background-color: rgb(118, 165, 42);
+}
 
 /* -----BARRA DE NAVEGACIÓN--------------------------------------------------------------------------------------------------- */
 
-/* .navbar {
-  max-width: 690px; Ancho máximo
-  padding: auto;
-  margin: 50px auto;
-  background-color: #e0e1dd;
-  border-radius: 15px;
-  font-family: 'Karla', sans-serif;
-  font-size: 1.5em; 
-} */
+.navbar {
+  max-width: 515px; /* Ancho maximo */
+  margin: 20px auto; /* Margen de arriba-abajo & margen al centro */
+  background-color: #e0e1dd; /* Fondo del nav */
+  border-radius: 15px; /* Borde circular */
+  font-family: 'Karla', sans-serif; /* Tipografía */
+  font-size: 1.0em; /* Tamaño tipografía */
+}
 
 /* BOTON DE CONTACTO */
-/* .contact {
-  color: #E0E1DD; 
-  background-color: #415A77;
-  border: 5px solid #415A77;
-  border-radius: 15px;
-  font-size: 1.0em;
-} */
-
-/* .navbar-brand {
-  font-family: 'Karla', sans-serif;
-  font-size: 1.2em;
-} */
+.contact {
+  color: #E0E1DD; /* Color tipografía */
+  background-color: #415A77; /* Fondo del boton */
+  border: 5px solid #415A77; /* Borde solido*/
+  border-radius: 15px; /* Borde circular */
+  margin-left: 10px; /* Derecha a Izquierda */
+}

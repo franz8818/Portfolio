@@ -9,7 +9,12 @@ function App() {
   return (
     <>
       {/* seccion Hero */}
-      <a className="Enlace" href="#">Enlace</a>
+      <section className="hero">
+        <div className="hero-principal row">
+          <div className="intro col-6">INTRO</div>
+          <div className="retrato col-6">RETRATO</div>
+        </div>
+      </section>
     </>
   );
 }

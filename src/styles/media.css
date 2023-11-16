@@ -3,11 +3,30 @@
 /* ------------------------------ NAVBAR -------------------------------- */
 
 /* Breakpoint <600px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+
     .navbar {
-        margin-left: 20px;
-        /* Agrega un margen izquierdo de 10px */
-        margin-right: 20px;
-        /* Agrega un margen derecho de 10px */
+        margin: 20px;
+        /* margen arriba | margen derecha | margen abajo | margen izquierda */
     }
+}
+
+@media screen and (max-width: 993px) {
+
+    .hero-principal {
+        flex-direction: column;
+        /* Se colocan uno encima del otro */
+        align-items: center;
+        /* Se centran los elementos */
+    }
+
+    .intro {
+        order: 2;
+    }
+
+    .retrato {
+        order: 1;
+        /* "Retrato" se coloca arriba de "intro" */
+    }
+
 }
