@@ -1,0 +1,27 @@
+/* -----ESTILOS GENERALES--------------------------------------------------------------------------------------------------- */
+
+*{
+  box-sizing:border-box; /* Selector universal: Para que no sumen padding ni margins -> "no se descuadre"  */
+}
+
+html, body {
+  background-color: var(--color-secondary); /* Color de fondo general */
+  margin: 0;
+  padding: 0;
+  /* Evita que el navegador los ponga por defecto */
+  font-family: 'Karla', sans-serif; /* Tipografía general  */
+}
+
+#root {
+  overflow-x: hidden; /* Elimina la scroll horizontal */
+}
+
+a{
+  color: var(--color-primary); /* Color de los enlaces */
+  text-decoration: none; /* Elimina la linea tipica de los enlaces */
+}
+
+a:hover {
+  color: var(--color-extra); /* Color cuando se para el mouse */
+  text-decoration: underline; /* Aparece la linea tipica de los enlaces */
+}
