@@ -13,8 +13,6 @@ function info() {
                             <div className="icon-box">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" />
                             </div>
-                            <div className="col-6 col-md-3">
-                            </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">

@@ -83,6 +83,6 @@ text-align: left;
   padding: 10px;
   border: 2px solid var(--color-shadow);
   border-radius: 15px;
-  width: calc(25% - 70px); /* Calcula el 25% del ancho con márgenes */
+  width: auto;
   background-color: white; /* Agrega un fondo blanco */
 }
