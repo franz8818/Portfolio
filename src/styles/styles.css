@@ -81,8 +81,8 @@ text-align: left;
 .icon-box {
   margin: 10px;
   padding: 10px;
+  width: auto;
   /* border: 2px solid var(--color-shadow);
   border-radius: 15px; */
-  width: auto;
-  background-color: white; /* Agrega un fondo blanco */
+  /* background-color: white;  Agrega un fondo blanco */
 }
