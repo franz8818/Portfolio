@@ -1,10 +1,13 @@
-<body>
-    <header class="d-flex justify-content-between">
-        <div class="nombre">
+
+function cv (){
+    return (
+    <>
+    <header className="d-flex justify-content-between" >
+        <div className="nombre">
             <h1>Franz Seidel Sánchez</h1>
             <h2>Front-End Developer</h2>
         </div>
-        <div class="contacto">
+        <div className="contacto">
             <h3><ul>
                 <li>franz8818@gmail.com</li>
                 <li>+573162702385</li>
@@ -13,9 +16,9 @@
             </ul></h3>
         </div>
     </header>
-    <!--Contenido principal-->
-    <main class="d-flex justify-content-between">
-        <section class="section1">
+    {/* Contenido principal */} 
+    <main className="d-flex justify-content-between">
+        <section className="section1">
             <h3>Experiencia Profesional</h3>
             <article>
                 <h4>Emprendedor - <i>Macht Bikes, tienda de artículos deportivos</i></h4>
@@ -37,9 +40,9 @@
                 </ul>
             </article>
             </section>
-            <!--Contenido adicional, no pertenece directamente a <section>-->
+            {/* Contenido adicional, no pertenece directamente a */} 
                 <aside>
-                    <section class="section3">
+                    <section className="section3">
                         <h3>Tecnologías y Habilidades</h3>
                         <article>
                             <ul>
@@ -60,10 +63,11 @@
                                 <li>Español - Nativo</li>
                                 <li>Ingles - A1</li>
                             </ul>
+                            </article>
                         </section>
                     </aside>
                 </main>
-                <section class="section2">
+                <section className="section2">
                 <h3>Proyectos</h3>
                 <article>
                     <h4>Where2Day - <i>Red social con información de usuarios</i></h4>
@@ -78,9 +82,14 @@
                 </article>
         </section>
         <footer>
-            <div class="footer d-flex justify-content-between">
+            <div className="footer d-flex justify-content-between">
                 <h2>Franz Seidel Sánchez</h2>
                 <h2>franz8818@gmail.com</h2>
             </div>
         </footer>
-</body>
+        </>
+)
+
+}
+
+export default cv

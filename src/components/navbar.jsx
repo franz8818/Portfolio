@@ -16,10 +16,10 @@ return (
           <a className="nav-link" href="#">CV</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://www.linkedin.com/in/franz8818/">Linkedin</a>
+          <a className="nav-link" href="https://www.linkedin.com/in/franz8818/" target="_blank" rel="noopener noreferrer">Linkedin</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://github.com/franz8818">GitHub</a>
+          <a className="nav-link" href="https://github.com/franz8818"target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
         <li className="nav-item">
         <button type="button" className="contact btn btn-light btn-sm">Contacto</button>
