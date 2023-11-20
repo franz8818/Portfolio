@@ -41,7 +41,7 @@
 }
 
 
-.hero-principal h3{
+.hero-principal h3 {
   color: var( --color-shadow);
   font-weight: 700;
   text-align: left;
@@ -66,6 +66,25 @@ text-align: left;
   /* Establece un ancho máximo para la imagen si es necesario */
 }
 
+/* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
+
+.proyects {
+  padding: 40px;
+  margin: auto;
+}
+
+.card {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border: 1.4px solid #1B263B;
+  border-radius: 20px;
+  /* Para que las tarjetas ocupen el ancho completo en dispositivos pequeños */
+}
+
+.img-proyects{
+  border-radius: 20px 20px 0px 0px;
+}
+
 /* -----TECHS--------------------------------------------------------------------------------------------------- */
 
 .techs {
@@ -85,4 +104,14 @@ text-align: left;
   /* border: 2px solid var(--color-shadow);
   border-radius: 15px; */
   /* background-color: white;  Agrega un fondo blanco */
+}
+
+.contact { 
+  background-color: var(--color-secondary);
+  border: none;
+  color: black;
+}
+
+.contact h4 { 
+  color: var(--color-shadow);
 }
