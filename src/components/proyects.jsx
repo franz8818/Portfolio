@@ -1,4 +1,4 @@
-function proyects() {
+function Proyects() {
   return (
     <>
       <section className="proyects">
@@ -39,4 +39,4 @@ function proyects() {
   )
 }
 
-export default proyects
+export default Proyects

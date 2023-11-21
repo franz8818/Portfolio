@@ -7,6 +7,7 @@ import Techs from './components/techs.jsx';
 import Proyects from './components/proyects.jsx';
 import Cv from './components/cv.jsx';
 import Contact from './components/contact.jsx';
+import Footer from './components/footer.jsx';
 import './styles/styles.css';
 import './styles/media.css';
 import './styles/common.css';
@@ -22,10 +23,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <App />
             <Proyects />
             <Techs />
-           <Contact />
+            <Contact />
           </div>} />
           <Route path="/cv" element={<Cv />} />
         </Routes>
+        <Footer />
       </>
     </Router>
   </React.StrictMode>,

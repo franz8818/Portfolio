@@ -1,8 +1,9 @@
 /* -----PALETA DE COLORES--------------------------------------------------------------------------------------------------- */
 
 :root{
-    --color-primary: #415A77;
-    --color-secondary: #faf8f8;
-    --color-extra: #dc143c;
-    --color-shadow: #777b81;
+    --white-: #F2F2F2;
+    --black-: #030F26;
+    --blue-: #0540F2;
+    --shadow-: #777b81;
+    --light-: #5E9FF2;
 }

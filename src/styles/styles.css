@@ -19,17 +19,25 @@
 .navbar {
   max-width: 515px; /* Ancho maximo */
   margin: 40px auto; /* Margen de arriba-abajo & margen al centro */
-  background-color: #e0e1dd; /* Fondo del nav */
+  background-color: var(--blue-); /* Fondo del nav */
   border-radius: 15px; /* Borde circular */
   font-family: 'Karla', sans-serif; /* Tipografía */
   font-size: 1.0em; /* Tamaño tipografía */
 }
 
+.navbar-brand  {
+  color:var(--white-);
+}
+
+.navbar-nav .nav-link {
+  color: var(--white-); /* Cambia el color del texto a blanco (#F2F2F2) */
+}
+
 /* BOTON DE CONTACTO */
-.contact {
-  color: #E0E1DD; /* Color tipografía */
-  background-color: #415A77; /* Fondo del boton */
-  border: 5px solid #415A77; /* Borde solido*/
+.contact-btn {
+  color: var(--black-); /* Color tipografía */
+  background-color: var(--white-); /* Fondo del boton */
+  border: 5px solid var(--white-); /* Borde solido*/
   border-radius: 15px; /* Borde circular */
   margin-left: 10px; /* Derecha a Izquierda */
 }
@@ -37,12 +45,12 @@
 /* -----HERO--------------------------------------------------------------------------------------------------- */
 
 .hero {
-  margin: 80px 50px;
+  margin: 100px 50px;
 }
 
 
 .hero-principal h3 {
-  color: var( --color-shadow);
+  color: var(--shadow-);
   font-weight: 700;
   text-align: left;
 }
@@ -51,10 +59,11 @@
 font-weight: 700;
 font-size: 3.8em; /* Tamaño tipografía */
 text-align: left;
+color: var(--black-);
 }
 
 .hero-principal p{
-  color: var( --color-shadow);
+  color: var(--shadow-);
   font-weight: 500;
   font-size: 1.8em; /* Tamaño tipografía */
   text-align: left;
@@ -69,16 +78,16 @@ text-align: left;
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
 
 .proyects {
-  padding: 40px;
-  margin: auto;
+  padding: 20px;
+  margin: 140px 10px 140px 10px;
 }
 
 .card {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-  border: 1.4px solid #1B263B;
+  background-color: var(--white-);
+  color: var(--black-);
+  border: 1.3px solid;
   border-radius: 20px;
-  /* Para que las tarjetas ocupen el ancho completo en dispositivos pequeños */
+  font-size: 1.3em;
 }
 
 .img-proyects{
@@ -93,7 +102,7 @@ text-align: left;
 }
 
 .tech-icons img {
-    max-width: 70%; /* Establece el ancho máximo al 100% del contenedor */
+    max-width: 60%; /* Establece el ancho máximo al 100% del contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 
@@ -101,17 +110,57 @@ text-align: left;
   margin: 10px;
   padding: 10px;
   width: auto;
-  /* border: 2px solid var(--color-shadow);
-  border-radius: 15px; */
-  /* background-color: white;  Agrega un fondo blanco */
+  padding: 5%;
+}
+
+
+/* -----CONTACT--------------------------------------------------------------------------------------------------- */
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 160px;
 }
 
 .contact { 
-  background-color: var(--color-secondary);
   border: none;
-  color: black;
 }
 
 .contact h4 { 
-  color: var(--color-shadow);
+  color: var(--shadow-);
+  font-size: 2em;
+}
+
+.contact h3 { 
+  font-size: 3.5em;
+  font-weight: 800;
+  color: var(--black-);
+}
+
+.contact h6 { 
+  font-size: 1.3em;
+  font-weight: 800;
+  color: var(--black-);
+}
+
+/* -----FOOTER--------------------------------------------------------------------------------------------------- */
+
+.footer {
+  background-color: var(--blue-);
+  padding: 10px; /* Ajusta el relleno según tus necesidades */
+  color: var(white); /* Ajusta el color del texto según tus necesidades */
+}
+
+.footer .row {
+  margin-left: 80px;
+  margin-right: 60px;
+}
+
+.footer .col {
+  padding: 0 40px;
+}
+
+.footer .nav-link{
+  color: var(--white-); /* Ajusta el color del texto según tus necesidades */
 }

@@ -31,7 +31,7 @@
             <a className="nav-link" href="https://github.com/franz8818"target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
           <li className="nav-item">
-          <button type="button" className="contact btn btn-light btn-sm" onClick={handleContactClick}>Contacto</button>
+          <button type="button" className="contact-btn btn btn-light btn-sm" onClick={handleContactClick}>Contacto</button>
           </li>
         </ul>
       </div>
