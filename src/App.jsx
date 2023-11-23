@@ -1,9 +1,4 @@
 import { useState } from 'react'
-import './styles/styles.css'
-import './styles/media.css'
-import './styles/colors.css'
-import './styles/common.css'
-import portrait from './assets/portrait.jpg';
 
 function App() {
   return (
@@ -11,7 +6,7 @@ function App() {
       {/* seccion Hero */}
       <section className="hero">
         <div className="hero-principal row">
-          <div className="intro col-8">
+          <div className="hero-intro col-8">
             <h3>Franz Seidel</h3>
             <h1>Desarrollador Frontend & Diseñador web</h1>
             <p className="info">

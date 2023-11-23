@@ -6,6 +6,9 @@ import Navbar from './components/navbar.jsx';
 import Techs from './components/techs.jsx';
 import Proyects from './components/proyects.jsx';
 import Cv from './components/cv.jsx';
+import W2d from './components/proyectW2d.jsx';
+import StarWarsP from './components/starwarsProyect.jsx';
+import StarWarsRest from './components/starwarsRestApi.jsx';
 import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
 import './styles/styles.css';
@@ -14,18 +17,24 @@ import './styles/common.css';
 import './styles/colors.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode> {/* Buena práctica para resaltar posibles problemas en tu código */}
     <Router>
       <>
         <Navbar />
         <Routes>
           <Route path="/" element={<div className="container text-center">
             <App />
+            {/* <div className='title'>
+            <h3>Proyectos</h3>
+            </div> */}
             <Proyects />
             <Techs />
             <Contact />
           </div>} />
           <Route path="/cv" element={<Cv />} />
+          <Route path="/proyectW2d" element={<W2d />} />
+          <Route path="/starwarsProyect" element={<StarWarsP />} />
+          <Route path="/starwarsRestApi" element={<StarWarsRest />} />
         </Routes>
         <Footer />
       </>

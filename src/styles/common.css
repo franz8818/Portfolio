@@ -15,13 +15,18 @@ html, body {
   overflow-x: hidden; /* Elimina la scroll horizontal */
 }
 
-/*  a {
-  color: yellow;  Color de los enlaces 
-  text-decoration: none;  Elimina la linea tipica de los enlaces 
+ a {
+  color: var(--black-);  /* Color de los enlaces */
+  text-decoration: none;  /*  Elimina la linea tipica de los enlaces */
+}
+
+ /* a:hover {
+   text-decoration: underline;   Aparece la linea tipica de los enlaces 
+  color: var(--light-);  Color de los enlaces 
 } */
 
-  a:hover {
-  /* color: yellow;  Color cuando se para el mouse  */
+a:hover .navbar-brand {
   text-decoration: underline;  /* Aparece la linea tipica de los enlaces */
+  color: var(--light-);  /* Color de los enlaces */
 } 
 

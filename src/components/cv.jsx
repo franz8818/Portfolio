@@ -1,5 +1,5 @@
 
-function cv (){
+function Cv (){
     return (
     <>
     <header className="d-flex justify-content-between" >
@@ -92,4 +92,4 @@ function cv (){
 
 }
 
-export default cv
+export default Cv

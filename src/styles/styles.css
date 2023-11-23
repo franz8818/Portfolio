@@ -33,6 +33,16 @@
   color: var(--white-); /* Cambia el color del texto a blanco (#F2F2F2) */
 }
 
+.navbar-brand:hover {
+  color: var(--white-); /* Cambia el color del texto al pasar el mouse */
+  text-decoration: none; /* Elimina la subraya al pasar el mouse */
+}
+
+.navbar-nav a.nav-link:hover {
+  color: var(--white-); /* Cambia el color del texto al pasar el mouse */
+  text-decoration: none; /* Elimina la subraya al pasar el mouse */
+}
+
 /* BOTON DE CONTACTO */
 .contact-btn {
   color: var(--black-); /* Color tipografía */
@@ -85,13 +95,58 @@ color: var(--black-);
 .card {
   background-color: var(--white-);
   color: var(--black-);
-  border: 1.3px solid;
+  border: 1.3px solid ;
   border-radius: 20px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
+
+
+.card-link:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+}
+
 
 .img-proyects{
   border-radius: 20px 20px 0px 0px;
+}
+
+/* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
+
+.intro-pic {
+  padding: 3%;
+ }
+
+ .intro-pic h1 {
+  font-weight: 700;
+  color: var(--black-);
+  font-size: 4em; /* Tamaño tipografía */
+}
+
+.intro-pic h4 {
+  color: var(--shadow-);
+  font-size: 2.8em; /* Tamaño tipografía */
+}
+
+.intro-pic h5 {
+  color: var(--shadow-);
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 2em; /* Tamaño tipografía */
+}
+
+.intro-pic h6 {
+  font-size: 1.6em;
+}
+
+.intro {
+  background-color: var(--bluer-);
+}
+
+.info-text {
+ font-size: 1.6em;
+ color: var(--white-);
+ padding: 3%;
 }
 
 /* -----TECHS--------------------------------------------------------------------------------------------------- */
@@ -99,6 +154,8 @@ color: var(--black-);
 .techs {
   margin-top: 80px; /* Ajusta el valor según sea necesario */
   margin-bottom: 30px; /* Ajusta el valor según sea necesario */
+  /* border: 5px solid var(--bluer-);  Borde solido
+  border-radius: 15px;  Borde circular */
 }
 
 .tech-icons img {
@@ -149,7 +206,7 @@ color: var(--black-);
 .footer {
   background-color: var(--blue-);
   padding: 10px; /* Ajusta el relleno según tus necesidades */
-  color: var(white); /* Ajusta el color del texto según tus necesidades */
+  color: var(--white-); /* Ajusta el color del texto según tus necesidades */
 }
 
 .footer .row {

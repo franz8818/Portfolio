@@ -1,4 +1,4 @@
-function info() {
+function Info() {
     return (
         <>
             <section className="techs">
@@ -71,4 +71,4 @@ function info() {
     )
 }
 
-export default info
+export default Info
