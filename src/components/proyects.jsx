@@ -7,6 +7,7 @@ function Proyects() {
     <>
       <section className="proyects">
         <div className="cards-proyects row container">
+      <h2 className='title'>Proyectos</h2>
           <div className="col-12 col-md-4">
             <Link to="/proyectW2d" className="card-link">
               <div className="card">
@@ -15,7 +16,17 @@ function Proyects() {
                   <h3 className="card-title">Where2Day
                   </h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
-                  <img className="info-card" src="https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541" />
+                  <div className='shields'>
+                  <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
+                  <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />
+                  <img className="info-card" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" />
+                  <img className="info-card" src="https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react" />
+                  <img className="info-card" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap" />
+                  <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
+                  <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />
+                  <img className="info-card" src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff" />
+                  <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+                  </div>
                 </div>
               </div>
             </Link>
@@ -27,7 +38,14 @@ function Proyects() {
                 <div className="card-body">
                   <h3 className="card-title ">StarWars Proyect</h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
-                  <img className="info-card" src="https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541" />
+                  <div className='shields'>
+                  <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
+                  <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />
+                  <img className="info-card" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" />
+                  <img className="info-card" src="https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react" />
+                  <img className="info-card" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap" />
+                  <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+                  </div>
                 </div>
               </div>
             </Link>
@@ -39,9 +57,14 @@ function Proyects() {
               <div className="card-body">
                 <h3 className="card-title">StarWars Rest API</h3>
                 <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
-                <img className="info-card" src="https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541" />
-                <img className="info-card" src="https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541" />
-                <img className="info-card" src="https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541" />             
+                <div className='shields'>
+                  <img className="info-card" src="https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react" />
+                  <img className="info-card" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap" />
+                  <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
+                  <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />
+                  <img className="info-card" src="https://img.shields.io/badge/Postman-F6BB43?style=flat-square&logo=Postman&logoColor=white" />
+                  <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
+                  </div>        
               </div>
             </div>
             </Link>

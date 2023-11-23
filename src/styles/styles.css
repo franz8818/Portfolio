@@ -31,6 +31,7 @@
 
 .navbar-nav .nav-link {
   color: var(--white-); /* Cambia el color del texto a blanco (#F2F2F2) */
+  text-decoration: none;
 }
 
 .navbar-brand:hover {
@@ -41,6 +42,12 @@
 .navbar-nav a.nav-link:hover {
   color: var(--white-); /* Cambia el color del texto al pasar el mouse */
   text-decoration: none; /* Elimina la subraya al pasar el mouse */
+}
+
+.navbar-brand:visited,
+.navbar-brand:active {
+  text-decoration: none;
+  color: var(--white-);
 }
 
 /* BOTON DE CONTACTO */
@@ -87,9 +94,17 @@ color: var(--black-);
 
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
 
+.title {
+ margin: 150px 0px 40px 0px;
+ font-size: 3em;
+ font-weight: 700;
+ color: var(--bluer-);
+ margin: 0px 10px 30px 10px;
+}
+
 .proyects {
   padding: 20px;
-  margin: 140px 10px 140px 10px;
+  margin: 0px 10px 100px 10px;
 }
 
 .card {
@@ -98,6 +113,8 @@ color: var(--black-);
   border: 1.3px solid ;
   border-radius: 20px;
   font-size: 1.1em;
+  width: 300px;
+  height: 450px;
 }
 
 
@@ -109,6 +126,10 @@ color: var(--black-);
 
 .img-proyects{
   border-radius: 20px 20px 0px 0px;
+}
+
+.shields img {
+  margin-right: 10px;
 }
 
 /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
@@ -139,6 +160,17 @@ color: var(--black-);
   font-size: 1.6em;
 }
 
+.repo-link{
+  color: var(--shadow-);
+  font-size: 1.2em; /* Tamaño tipografía */
+}
+
+.intro-proyects {
+  width: 480px;
+  height: auto;
+  margin: 50px 0px 5px 2px;
+}
+
 .intro {
   background-color: var(--bluer-);
 }
@@ -147,6 +179,7 @@ color: var(--black-);
  font-size: 1.6em;
  color: var(--white-);
  padding: 3%;
+ margin-top: 50px;
 }
 
 /* -----TECHS--------------------------------------------------------------------------------------------------- */

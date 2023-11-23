@@ -6,14 +6,23 @@ function StarWarsRest() {
   return (
     <>
       <section className="StarWarsRest">
-                <div className="intro-proyect row">
+      <div className="intro-proyect row">
                     <div className="intro-pic col-6">
                         <h1>Where2Day</h1>
-                        <h4>A social app to share experiences</h4>
+                        <h4>Una red social para compartir experiencias</h4>
                         <h5>Mis funciones</h5>
                         <h6>UX / UI </h6>
                         <h6>Diseño de la página web</h6>
                         <h6>Diseño de funcionalidades</h6>
+                        <a
+                            href="https://github.com/Charlytoc/where2day"
+                            target="_blank"
+                            rel="noopener noreferrer" className="repo-link"> Repositorio en GitHub
+                        </a>
+                        <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
                     </div>
                     <div className="intro col-6">
                         <p className="info-text">

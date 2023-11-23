@@ -14,6 +14,15 @@ function W2d() {
                         <h6>UX / UI </h6>
                         <h6>Diseño de la página web</h6>
                         <h6>Diseño de funcionalidades</h6>
+                        <a
+                            href="https://github.com/Charlytoc/where2day"
+                            target="_blank"
+                            rel="noopener noreferrer" className="repo-link"> Repositorio en GitHub
+                        </a>
+                        <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
+                        <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
                     </div>
                     <div className="intro col-6">
                         <p className="info-text">

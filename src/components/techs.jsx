@@ -3,6 +3,7 @@ function Info() {
         <>
             <section className="techs">
                 <div className="tech-icons container">
+                <h2 className='title'>Tecnologías</h2>
                     <div className="row justify-content-center align-items-center">
                         <div className="col-6 col-md-3">
                             <div className="icon-box">

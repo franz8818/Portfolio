@@ -24,9 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<div className="container text-center">
             <App />
-            {/* <div className='title'>
-            <h3>Proyectos</h3>
-            </div> */}
             <Proyects />
             <Techs />
             <Contact />
