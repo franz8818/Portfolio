@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-
 function W2d() {
     return (
         <>
@@ -17,12 +16,15 @@ function W2d() {
                         <a
                             href="https://github.com/Charlytoc/where2day"
                             target="_blank"
-                            rel="noopener noreferrer" className="repo-link"> Repositorio en GitHub
+                            rel="noopener noreferrer" className="repo-link">
+                            <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
                         </a>
-                        <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
+                        <div className="intro-pic col-6">
+                            <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
+                        </div>
                     </div>
                     <div className="intro col-6">
                         <p className="info-text">

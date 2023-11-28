@@ -182,6 +182,14 @@ color: var(--black-);
  margin-top: 50px;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%; /* Ajusta según sea necesario */
+}
+
+
 /* -----TECHS--------------------------------------------------------------------------------------------------- */
 
 .techs {
@@ -192,7 +200,7 @@ color: var(--black-);
 }
 
 .tech-icons img {
-    max-width: 60%; /* Establece el ancho máximo al 100% del contenedor */
+    max-width: 50%; /* Establece el ancho máximo al 100% del contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 

@@ -20,6 +20,11 @@ html, body {
   text-decoration: none;  /*  Elimina la linea tipica de los enlaces */
 }
 
+.contacto a{
+    /* Color de los enlaces */
+  text-decoration: none;  /*  Elimina la linea tipica de los enlaces */
+}
+
  /* a:hover {
    text-decoration: underline;   Aparece la linea típica de los enlaces 
   color: var(--light-);  Color de los enlaces 
