@@ -27,42 +27,63 @@ function Info() {
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python" />
+                            </div>
+                        </div>
+                        <div className="col-6 col-md-3">
+                            <div className="icon-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" />
+                            </div>
+                        </div>
+                        <div className="col-6 col-md-3">
+                            <div className="icon-box">
+                                <img src="https://play-lh.googleusercontent.com/keVVojxW-b11NTKWZg8GulfLlhqBpATvqGFViblYsI0fxW_8a0sIPgyRlB94Gu1AQMY" alt="Flask" />
+                            </div>
+                        </div>
+                        <div className="col-6 col-md-3">
+                            <div className="icon-box">
+                                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" alt="Postman" /> 
+                            </div>
+                        </div>
+                        <div className="col-6 col-md-3">
+                            <div className="icon-box">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Boostrap" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" alt="drawing" />
+                                <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" alt="Figma" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Adobe_Systems_logo_and_wordmark.svg/1477px-Adobe_Systems_logo_and_wordmark.svg.png" alt="drawing" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Adobe_Systems_logo_and_wordmark.svg/1477px-Adobe_Systems_logo_and_wordmark.svg.png" alt="Adobe" />
+                            </div>
+                        </div>
+                        
+                        <div className="col-6 col-md-3">
+                            <div className="icon-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" alt="Wordpress" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="drawing" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="Git" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://play-lh.googleusercontent.com/keVVojxW-b11NTKWZg8GulfLlhqBpATvqGFViblYsI0fxW_8a0sIPgyRlB94Gu1AQMY" alt="drawing" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png" alt="DaVinci" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="drawing" />
+                                <img src="https://static.vecteezy.com/system/resources/previews/013/948/546/original/capcut-logo-on-transparent-white-background-free-vector.jpg" alt="CapCut" />
                             </div>
                         </div>
                         <div className="col-6 col-md-3">
                             <div className="icon-box">
-                                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" alt="drawing" />
-                            </div>
-                        </div>
-                        <div className="col-6 col-md-3">
-                            <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="drawing" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/768px-ChatGPT_logo.svg.png" alt="ChatGPT" />
                             </div>
                         </div>
                     </div>

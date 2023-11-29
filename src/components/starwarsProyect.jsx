@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-
-function StarWarsP() {
-  return (
-    <>
-      <section className="StarWarsP">
-      <div className="intro-proyect row">
-                    <div className="intro-pic col-6">
+function W2d() {
+    return (
+        <>
+            <section className="w2d">
+                <div className="intro-proyect row">
+                    <div className="intro-details col-6">
                         <h1>Where2Day</h1>
                         <h4>Una red social para compartir experiencias</h4>
                         <h5>Mis funciones</h5>
@@ -17,12 +16,15 @@ function StarWarsP() {
                         <a
                             href="https://github.com/Charlytoc/where2day"
                             target="_blank"
-                            rel="noopener noreferrer" className="repo-link"> Repositorio en GitHub
+                            rel="noopener noreferrer" className="repo-link">
+                            <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
                         </a>
-                        <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
-                        <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
+                        <div className="intro-pic col-6">
+                            <img className="intro-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
+                        </div>
                     </div>
                     <div className="intro col-6">
                         <p className="info-text">
@@ -43,9 +45,9 @@ function StarWarsP() {
                     </div>
                 </div>
             </section>
-    </>
-  )
+        </>
+    )
 
 }
 
-export default StarWarsP
+export default W2d

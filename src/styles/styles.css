@@ -23,6 +23,8 @@
   border-radius: 15px; /* Borde circular */
   font-family: 'Karla', sans-serif; /* Tipografía */
   font-size: 1.0em; /* Tamaño tipografía */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
 }
 
 .navbar-brand  {
@@ -114,7 +116,9 @@ color: var(--black-);
   border-radius: 20px;
   font-size: 1.1em;
   width: 300px;
-  height: 450px;
+  height: 440px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
 }
 
 
@@ -128,35 +132,39 @@ color: var(--black-);
   border-radius: 20px 20px 0px 0px;
 }
 
+.card-body{
+padding: 20px 8px 8px;
+}
+
 .shields img {
   margin-right: 10px;
 }
 
 /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
 
-.intro-pic {
+.intro-details {
   padding: 3%;
  }
 
- .intro-pic h1 {
+ .intro-details h1 {
   font-weight: 700;
   color: var(--black-);
   font-size: 4em; /* Tamaño tipografía */
 }
 
-.intro-pic h4 {
+.intro-details h4 {
   color: var(--shadow-);
   font-size: 2.8em; /* Tamaño tipografía */
 }
 
-.intro-pic h5 {
+.intro-details h5 {
   color: var(--shadow-);
   margin-top: 50px;
   font-weight: 500;
   font-size: 2em; /* Tamaño tipografía */
 }
 
-.intro-pic h6 {
+.intro-details h6 {
   font-size: 1.6em;
 }
 
@@ -169,6 +177,9 @@ color: var(--black-);
   width: 480px;
   height: auto;
   margin: 50px 0px 5px 2px;
+  border-radius: 20px; /* Bordes redondeados, ajusta según tus preferencias */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
 }
 
 .intro {
@@ -200,7 +211,7 @@ color: var(--black-);
 }
 
 .tech-icons img {
-    max-width: 50%; /* Establece el ancho máximo al 100% del contenedor */
+    max-width: 45%; /* Establece el ancho máximo al 100% del contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 

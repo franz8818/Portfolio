@@ -4,7 +4,10 @@ function Cv() {
         fontSize: '3.8em',
         background: 'var(--bluer-)',
         color: 'white',
-        padding: '10px 10px 30px',
+        padding: '10px 10px 10px',
+        borderRadius: "20px",
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+        transition: 'boxShadow 0.3s ease', /* Efecto de transición suave en la sombra */
     };
 
     const iconStyles = {
@@ -48,7 +51,7 @@ function Cv() {
                     <h3 style={{ fontWeight: '700' }}>Experiencia Profesional</h3>
                     <article>
                         <h5 style={{ fontWeight: '500', marginTop: "20px" }}>Emprendedor - <i>Macht Bikes, tienda de artículos deportivos</i></h5>
-                        <ul>
+                        <ul style={{ marginRight: "120px" }}>
                             <li>Gestioné e-commerce de la marca por medio de la plataforma Shopify.</li>
                             <li>Experiencia en comercio electrónico con plataformas como Mercado Libre, Linio o Bike Exchange.</li>
                             <li>Realicé estrategias de SEO mediante palabras claves, contenidos, enlaces de otros sitios web y monitoreo de resultados.</li>
@@ -56,7 +59,7 @@ function Cv() {
                     </article>
                     <article>
                         <h5 style={{ fontWeight: '500' }}>Agente de ventas - <a href="https://luzinmobiliaria.com/" target="_blank" rel="noopener noreferrer"><i>Luz Inmobiliaria</i></a></h5>
-                        <ul>
+                        <ul style={{ marginRight: "120px" }}>
                             <li>Desarrollo de estrategias de ventas: logré un crecimiento significativo en los arriendos y ventas de inmuebles de la empresa.</li>
                             <li>Fidelización de clientes: Por medio de una comunicación efectiva y regular con los clientes, logré resolver problemas e inquietudes, generando una lealtad perdurable durante años.</li>
                             <li>Negociación de precios de alquileres y ventas de inmuebles: Acuerdos mutuos sobre costos, plazos de entrega y otros términos.</li>
@@ -69,7 +72,7 @@ function Cv() {
                             Where2Day - <i>Red social con información de usuarios</i>
                         </a>
                     </h5>
-                    <ul style={{ marginBottom: "30px"}}>
+                    <ul style={{ marginRight: "120px", marginBottom: "30px"}}>
                         <li>Landing page desarrollada con HTML, CSS y React bajo un efecto Parallax.</li>
                         <li>Creamos componentes de React para las funcionalidades de inicio de sesión y registro que se conectan con el back-end mediante Axios para solicitudes HTTPS con el fin de almacenar información del usuario.</li>
                         <li>El token JWT del usuario se almacena en Reacts-Redux Store hasta que la sesión expire o el usuario cierre la sesión.</li>
@@ -84,22 +87,24 @@ function Cv() {
                     <section className="conocimientos">
                         <h4 style={{ fontWeight: '600' }}>Tecnologías</h4>
                         <article>
-                            <ul style={{ listStyleType: 'none', fontWeight: '500', fontSize:"1.2em", marginTop: "35px" }}>
-                                <li>HTML <br/> <progress min="0" value="90" max="100"> </progress> </li>
-                                <li>CSS <br/> <progress min="0" value="80" max="100"> </progress> </li>
-                                <li>JavaScript <br/> <progress min="0" value="60" max="100"> </progress> </li>
-                                <li>React <br/> <progress min="0" value="70" max="100"> </progress> </li>
-                                <li>Boostrap <br/> <progress min="0" value="80" max="100"> </progress> </li>
-                                <li>Python <br/> <progress min="0" value="50" max="100"> </progress> </li>
-                                <li>Git <br/> <progress min="0" value="80" max="100"> </progress> </li>
+                            <ul style={{ listStyleType: 'none', fontSize:"1.2em", marginTop: "35px", paddingLeft: "0" }}>
+                                <li>HTML <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="90" max="100"> </progress> </li>
+                                <li>CSS <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="80" max="100"> </progress> </li>
+                                <li>JavaScript <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="60" max="100"> </progress> </li>
+                                <li>React <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="70" max="100"> </progress> </li>
+                                <li>Boostrap <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="80" max="100"> </progress> </li>
+                                <li>Python <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="50" max="100"> </progress> </li>
+                                <li>Git <br/> <progress style={{ width: '230px', height: '20px' }} min="0" value="80" max="100"> </progress> </li>
                             </ul>
                         </article>
-                        <hr style={{ margin: '50px 0', height: '2px', backgroundColor: 'var(--shadow-)' }} />
-                        <h4 style={{ fontWeight: '600', marginTop: "45px" }}>Educación e Idiomas</h4>
+                        <hr style={{ margin: '30px 0', height: '2px', backgroundColor: 'var(--shadow-)' }} />
+                        <h4 style={{ fontWeight: '600', marginBottom: "20px" }}>Educación e Idiomas</h4>
                         <article>
-                            <ul style={{ listStyleType: 'none' }}>
-                                <li><span style={{ fontStyle: 'italic' }}>Full Stack Developer</span>, <span style={{ fontWeight: 'bold' }}>4Geeks Academy </span> <span style={{ fontStyle: 'italic' }}>07/2022 - 11/2022</span></li>
-                                <li><span style={{ fontStyle: 'italic' }}>Publicidad</span> , <span style={{ fontWeight: 'bold' }}>Universidad Argentina de la Empresa </span> - <span style={{ fontStyle: 'italic' }}>01/2011 - 12/2015 </span></li>
+                            <ul style={{ listStyleType: 'none', paddingLeft: "0", fontSize:"1.1em", }}>
+                                <li><span style={{ fontStyle: 'italic' }}>Full Stack Developer</span> <br/> <span style={{ fontWeight: 'bold' }}>4Geeks Academy </span> <br/> <span style={{ fontStyle: 'italic' }}>07/2022 - 11/2022</span></li>
+                                <br/>
+                                <li><span style={{ fontStyle: 'italic' }}>Publicidad</span> <br/> <span style={{ fontWeight: 'bold' }}>Universidad <br/> Argentina de la Empresa </span> <span style={{ fontStyle: 'italic' }}> <br/> 01/2011 - 12/2015 </span></li>
+                                <br/>
                                 <li><span style={{ fontWeight: 'bold' }}>Español </span> - <span style={{ fontStyle: 'italic' }}>Nativo</span></li>
                                 <li><span style={{ fontWeight: 'bold' }}>Inglés </span> - <span style={{ fontStyle: 'italic' }}>A1</span></li>
                             </ul>

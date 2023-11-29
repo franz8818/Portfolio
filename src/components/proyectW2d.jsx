@@ -6,7 +6,7 @@ function W2d() {
         <>
             <section className="w2d">
                 <div className="intro-proyect row">
-                    <div className="intro-pic col-6">
+                    <div className="intro-details col-6">
                         <h1>Where2Day</h1>
                         <h4>Una red social para compartir experiencias</h4>
                         <h5>Mis funciones</h5>
