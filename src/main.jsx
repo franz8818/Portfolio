@@ -15,13 +15,10 @@ import './styles/styles.css';
 import './styles/media.css';
 import './styles/common.css';
 import './styles/colors.css';
-import smoothscroll from 'smoothscroll-polyfill';
 
-// Configura la biblioteca
-smoothscroll.polyfill();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode> {/* Buena práctica para resaltar posibles problemas en tu código */}
+  <React.StrictMode> {/* Resaltar posibles problemas en tu código */}
     <Router>
       <>
         <Navbar />

@@ -8,7 +8,7 @@ function Proyects() {
       <section className="proyects">
         <div className="cards-proyects row container">
       <h2 className='title'>Proyectos</h2>
-          <div className="col-12 col-md-4">
+          <div className="card-proyect col-12 col-md-4">
             <Link to="/proyectW2d" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}

@@ -97,17 +97,18 @@ color: var(--black-);
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
 
 .title {
- margin: 150px 0px 40px 0px;
+ margin: 0px 0px 40px 0px;
  font-size: 3em;
  font-weight: 700;
  color: var(--bluer-);
- margin: 0px 10px 30px 10px;
+ text-align: center;
 }
 
-.proyects {
+.proyects { 
   padding: 20px;
-  margin: 0px 10px 100px 10px;
+  margin-left: 50px; 
 }
+
 
 .card {
   background-color: var(--white-);

@@ -34,13 +34,13 @@ function Cv() {
                     </div>
                     <div className="contacto" style={{ width: '380px' }}>
                         <div style={contactoStyles}>
-                            <h2 style={{ fontSize: '0.4em', textAlign: 'center', margin: '0 auto' }}><i class="fa-regular fa-envelope" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>franz8818@gmail.com</h2>
-                            <h2 style={{ fontSize: '0.4em', marginTop: "5px", textAlign: 'center', margin: '0 auto' }}><i class="fa-solid fa-mobile-screen-button" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>+573162702385</h2>
+                            <h2 style={{ fontSize: '0.4em', textAlign: 'center', margin: '0 auto' }}><i className="fa-regular fa-envelope" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>franz8818@gmail.com</h2>
+                            <h2 style={{ fontSize: '0.4em', marginTop: "5px", textAlign: 'center', margin: '0 auto' }}><i className="fa-solid fa-mobile-screen-button" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>+573162702385</h2>
                             <div style={iconStyles}>
                                 <a href="https://www.linkedin.com/in/franz8818/" target="_blank"><i className="fa-brands fa-linkedin" style={{ color: 'var(--white-)' }}></i></a>
                                 <a href="https://github.com/franz8818" target="_blank"><i className="fa-brands fa-github" style={{ color: 'var(--white-)' }}></i></a>
                             </div>
-                            <h4 style={{marginTop: "10px", textAlign: 'center', color: 'var(--white-)'}}> <i class="fa-solid fa-download" style={{ marginRight: "5px" }}></i>Descargar CV</h4>
+                            <h4 style={{marginTop: "10px", textAlign: 'center', color: 'var(--white-)'}}> <i className="fa-solid fa-download" style={{ marginRight: "5px" }}></i>Descargar CV</h4>
                         </div>
                     </div>
                 </header>

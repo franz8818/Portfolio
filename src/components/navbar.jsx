@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Navbar() {
-
+  const navigate = useNavigate();
+  
   const scrollToSection = (sectionId) => {
     {/* La función scrollToSection toma sectionId como parámetro, que es el ID de la sección a la que deseamos desplazarnos suavemente. */}
     const section = document.getElementById(sectionId);
@@ -13,6 +14,22 @@ function Navbar() {
       {/* Hace que el navegador haga scroll suavemente hacia la sección identificada. */}
     }
   };
+
+  
+  const handleNavLinkClick = (sectionId) => {
+    if (sectionId === 'proyects-section') {
+      navigate('/');
+    } else {
+      scrollToSection(sectionId);
+    }
+  };
+
+  const combinedClickHandler = (sectionId) => {
+    // Llama a ambas funciones
+    scrollToSection(sectionId);
+    handleNavLinkClick(sectionId);
+  };
+
 
   return (
     <>
@@ -25,7 +42,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav d-flex">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#" onClick={() => scrollToSection('proyects-section')}>
+                <a className="nav-link" aria-current="page" href="#" onClick={() => combinedClickHandler('proyects-section')}>
                   Proyectos
                 </a>
               </li>
