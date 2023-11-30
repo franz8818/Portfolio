@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import App from './App.jsx';
@@ -18,6 +18,7 @@ import './styles/colors.css';
 
 const MainContent = () => {
   const location = useLocation();
+  const [showGoTopButton, setShowGoTopButton] = useState(false);
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -27,11 +28,30 @@ const MainContent = () => {
   };
 
   useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setShowGoTopButton(true);
+      } else {
+        setShowGoTopButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
     if (location.state && location.state.scrollTo) {
       scrollToSection(location.state.scrollTo);
     }
   }, [location.state]);
 
+  const handleGoTopClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="container text-center">
@@ -43,27 +63,30 @@ const MainContent = () => {
       <div id="contact-section">
         <Contact />
       </div>
+      {showGoTopButton && (
+        <button id="goTopButton" onClick={handleGoTopClick}>
+          <i className="fas fa-chevron-up"></i> {/* Ajusta la clase según FontAwesome */}
+        </button>
+      )}
     </div>
   );
 };
 
 const Main = () => {
   return (
-    <React.StrictMode>
-      <Router>
-        <>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<MainContent />} />
-            <Route path="/cv" element={<Cv />} />
-            <Route path="/proyectW2d" element={<W2d />} />
-            <Route path="/starwarsProyect" element={<StarWarsP />} />
-            <Route path="/starwarsRestApi" element={<StarWarsRest />} />
-          </Routes>
-          <Footer />
-        </>
-      </Router>
-    </React.StrictMode>
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/cv" element={<Cv />} />
+          <Route path="/proyectW2d" element={<W2d />} />
+          <Route path="/starwarsProyect" element={<StarWarsP />} />
+          <Route path="/starwarsRestApi" element={<StarWarsRest />} />
+        </Routes>
+        <Footer />
+      </>
+    </Router>
   );
 };
 

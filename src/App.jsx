@@ -11,6 +11,17 @@ function App() {
               Over the past 5 years I have been working with big eCommerce companies around the world.
               Offering services around them, working solo, leading small eCommerce teams, maintaining eCommerce websites and developing SAAS.
             </p>
+          <div className="certi">
+            <div className="hero-certi-uade">
+            <img src="https://vectorseek.com/wp-content/uploads/2023/08/UADE.-Logo-Vector.svg-.png" alt="UADE" />                        
+            </div>
+            <div className="hero-certi">
+            <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943" alt="4Geeks" />                        
+            </div>
+            <div className="hero-certi">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/2090px-Sena_Colombia_logo.svg.png" alt="SENA" />                        
+            </div>
+          </div>
           </div>
           <div className="retrato col-4">
             <img className="perfil" src="src/assets/college.jpg" alt="foto de perfil" />

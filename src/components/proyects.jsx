@@ -6,7 +6,7 @@ function Proyects() {
   return (
     <>
       <section className="proyects">
-        <div className="cards-proyects row container">
+        <div className="cards-proyects row">
           <h2 className='title'>Proyectos</h2>
           <div className="card-proyect col-12 col-md-4">
             <Link to="/proyectW2d" className="card-link">
@@ -25,13 +25,12 @@ function Proyects() {
                     <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />
                     <img className="info-card" src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff" />
-                    <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
                   </div>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="card-proyect col-12 col-md-4">
             <Link to="/starwarsProyect" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/starwars-proyect-cover.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
@@ -50,7 +49,7 @@ function Proyects() {
               </div>
             </Link>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="card-proyect col-12 col-md-4">
             <Link to="/starwarsRestApi" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/starwarsAPI-cover.png" alt="StarWars Rest API" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}

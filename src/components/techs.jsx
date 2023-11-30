@@ -2,7 +2,7 @@ function Info() {
     return (
         <>
             <section className="techs">
-                <div className="tech-icons container">
+                <div className="tech-icons">
                 <h2 className='title'>Tecnologías</h2>
                     <div className="row justify-content-center align-items-center">
                         <div className="col-6 col-md-3">

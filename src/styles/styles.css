@@ -1,7 +1,7 @@
 /* -----VISTA GENERAL--------------------------------------------------------------------------------------------------- */
 
 .container {
-  max-width: 1200px;
+  max-width: 1328px;
   /* Ancho maximo */
   margin: 0 auto;
   /* Se centra */
@@ -17,33 +17,46 @@
 /* -----NAVBAR--------------------------------------------------------------------------------------------------- */
 
 .navbar {
-  max-width: 515px; /* Ancho maximo */
-  margin: 40px auto; /* Margen de arriba-abajo & margen al centro */
-  background-color: var(--blue-); /* Fondo del nav */
-  border-radius: 15px; /* Borde circular */
-  font-family: 'Karla', sans-serif; /* Tipografía */
-  font-size: 1.0em; /* Tamaño tipografía */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
-  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
+  max-width: 515px;
+  /* Ancho maximo */
+  margin: 40px auto;
+  /* Margen de arriba-abajo & margen al centro */
+  background-color: var(--blue-);
+  /* Fondo del nav */
+  border-radius: 15px;
+  /* Borde circular */
+  font-family: 'Karla', sans-serif;
+  /* Tipografía */
+  font-size: 1.0em;
+  /* Tamaño tipografía */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease;
+  /* Efecto de transición suave en la sombra */
 }
 
-.navbar-brand  {
-  color:var(--white-);
+.navbar-brand {
+  color: var(--white-);
 }
 
 .navbar-nav .nav-link {
-  color: var(--white-); /* Cambia el color del texto a blanco (#F2F2F2) */
+  color: var(--white-);
+  /* Cambia el color del texto a blanco (#F2F2F2) */
   text-decoration: none;
 }
 
 .navbar-brand:hover {
-  color: var(--white-); /* Cambia el color del texto al pasar el mouse */
-  text-decoration: none; /* Elimina la subraya al pasar el mouse */
+  color: var(--white-);
+  /* Cambia el color del texto al pasar el mouse */
+  text-decoration: none;
+  /* Elimina la subraya al pasar el mouse */
 }
 
 .navbar-nav a.nav-link:hover {
-  color: var(--white-); /* Cambia el color del texto al pasar el mouse */
-  text-decoration: none; /* Elimina la subraya al pasar el mouse */
+  color: var(--white-);
+  /* Cambia el color del texto al pasar el mouse */
+  text-decoration: none;
+  /* Elimina la subraya al pasar el mouse */
 }
 
 .navbar-brand:visited,
@@ -54,19 +67,28 @@
 
 /* BOTON DE CONTACTO */
 .contact-btn {
-  color: var(--black-); /* Color tipografía */
-  background-color: var(--white-); /* Fondo del boton */
-  border: 5px solid var(--white-); /* Borde solido*/
-  border-radius: 15px; /* Borde circular */
-  margin-left: 10px; /* Derecha a Izquierda */
+  color: var(--black-);
+  /* Color tipografía */
+  background-color: var(--white-);
+  /* Fondo del boton */
+  border: 5px solid var(--white-);
+  /* Borde solido*/
+  border-radius: 15px;
+  /* Borde circular */
+  margin-left: 10px;
+  /* Derecha a Izquierda */
 }
 
 /* -----HERO--------------------------------------------------------------------------------------------------- */
 
 .hero {
-  margin: 100px 50px;
+  margin: 100px 10px;
+  padding: 0px 5px;
 }
 
+.hero-intro {
+  padding: 30px;
+}
 
 .hero-principal h3 {
   color: var(--shadow-);
@@ -74,150 +96,170 @@
   text-align: left;
 }
 
-.hero-principal h1{
-font-weight: 700;
-font-size: 3.8em; /* Tamaño tipografía */
-text-align: left;
-color: var(--black-);
+.hero-principal h1 {
+  font-weight: 700;
+  font-size: 3.8em;
+  text-align: left;
+  color: var(--black-);
 }
 
-.hero-principal p{
+.hero-principal p {
   color: var(--shadow-);
   font-weight: 500;
-  font-size: 1.8em; /* Tamaño tipografía */
+  font-size: 1.8em;
   text-align: left;
-  }
+}
 
-  /* FOTO PERFIL */
+.certi{
+display: flex;
+justify-content: center;
+margin-right: 120px;
+}
+
+.hero-certi img {
+  width: 120px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.hero-certi-uade img{
+  width: 120px;
+  height: auto;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+/* FOTO PERFIL */
 .perfil {
-  max-width: 400px;
-  /* Establece un ancho máximo para la imagen si es necesario */
+  width: 335px; /* Establece un ancho máximo para la imagen si es necesario */
+  margin-top: 50px;
 }
 
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
-.section.proyects {
-  padding: 0;
-  margin: 0;
+.proyects {
+  margin: 100px 10px;
+  padding: 0px 5px;
 }
 
 .title {
- margin: 0px 0px 40px 0px;
- font-size: 3em;
- font-weight: 700;
- color: var(--bluer-);
- text-align: center;
+  margin: 0px 0px 40px 0px;
+  font-size: 3em;
+  font-weight: 700;
+  color: var(--bluer-);
+  text-align: center;
 }
-
-.proyects { 
-  padding: 20px;
-  margin-left: 50px; 
-}
-
 
 .card {
   background-color: var(--white-);
   color: var(--black-);
-  border: 1.3px solid ;
+  border: 1.3px solid;
   border-radius: 20px;
   font-size: 1.1em;
-  width: 300px;
-  height: 440px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
-  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
+  width: 405px;
+  height: 470px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease;
+  /* Efecto de transición suave en la sombra */
 }
-
 
 .card-link:hover {
   filter: brightness(80%);
   transition: filter 0.3s ease;
 }
 
-
-.img-proyects{
+.img-proyects {
   border-radius: 20px 20px 0px 0px;
 }
 
-.card-body{
-padding: 20px 8px 8px;
+.card-body {
+  padding: 20px 8px;
 }
 
 .shields img {
   margin-right: 10px;
+  padding: 3px;
 }
 
 /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
 
 .intro-details {
   padding: 3%;
- }
+}
 
- .intro-details h1 {
+.intro-details h1 {
   font-weight: 700;
   color: var(--black-);
-  font-size: 4em; /* Tamaño tipografía */
+  font-size: 4em;
 }
 
 .intro-details h4 {
   color: var(--shadow-);
-  font-size: 2.8em; /* Tamaño tipografía */
+  font-size: 2.8em;
 }
 
 .intro-details h5 {
   color: var(--shadow-);
   margin-top: 50px;
   font-weight: 500;
-  font-size: 2em; /* Tamaño tipografía */
+  font-size: 2em;
 }
 
 .intro-details h6 {
   font-size: 1.6em;
 }
 
-.repo-link{
+.repo-link {
   color: var(--shadow-);
-  font-size: 1.2em; /* Tamaño tipografía */
+  font-size: 1.2em;
 }
 
 .intro-proyects {
   width: 480px;
   height: auto;
   margin: 50px 0px 5px 2px;
-  border-radius: 20px; /* Bordes redondeados, ajusta según tus preferencias */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
-  transition: box-shadow 0.3s ease; /* Efecto de transición suave en la sombra */
+  border-radius: 20px;
+  /* Bordes redondeados, ajusta según tus preferencias */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
+  transition: box-shadow 0.3s ease;
+  /* Efecto de transición suave en la sombra */
 }
 
 .intro {
-  background-color: var(--bluer-);
+  background-color: var(--blu-);
 }
 
 .info-text {
- font-size: 1.6em;
- color: var(--white-);
- padding: 3%;
- margin-top: 50px;
+  font-size: 1.6em;
+  color: var(--white-);
+  padding: 3%;
+  margin-top: 50px;
 }
 
 .icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10%; /* Ajusta según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
 }
 
 
 /* -----TECHS--------------------------------------------------------------------------------------------------- */
 
 .techs {
-  margin-top: 80px; /* Ajusta el valor según sea necesario */
-  margin-bottom: 30px; /* Ajusta el valor según sea necesario */
+  margin: 100px 10px;
+  padding: 0px 5px;
+  /* Ajusta el valor según sea necesario */
   /* border: 5px solid var(--bluer-);  Borde solido
   border-radius: 15px;  Borde circular */
 }
 
 .tech-icons img {
-    max-width: 45%; /* Establece el ancho máximo al 100% del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+  max-width: 45%;
+  /* Establece el ancho máximo al 100% del contenedor */
+  height: auto;
+  /* Mantiene la proporción original de la imagen */
 }
 
 .icon-box {
@@ -230,29 +272,29 @@ padding: 20px 8px 8px;
 
 /* -----CONTACT--------------------------------------------------------------------------------------------------- */
 
-.contact-container {
+.contact {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 160px;
+  margin: 120px 10px;
+  padding: 0px 5px;
+}
+.contact-box {
+  margin: 160px 10px;
+  padding: 0px 5px;
 }
 
-.contact { 
-  border: none;
-}
-
-.contact h4 { 
+.contact h4 {
   color: var(--shadow-);
   font-size: 2em;
 }
 
-.contact h3 { 
+.contact h3 {
   font-size: 3.5em;
   font-weight: 800;
   color: var(--black-);
 }
 
-.contact h6 { 
+.contact h6 {
   font-size: 1.3em;
   font-weight: 800;
   color: var(--black-);
@@ -262,19 +304,43 @@ padding: 20px 8px 8px;
 
 .footer {
   background-color: var(--blue-);
-  padding: 10px; /* Ajusta el relleno según tus necesidades */
-  color: var(--white-); /* Ajusta el color del texto según tus necesidades */
+  padding: 10px;
+  /* Reyeno */
+  color: var(--white-);
+  /* ColorFont */
 }
 
-.footer .row {
-  margin-left: 80px;
-  margin-right: 60px;
+.flex-container {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
 }
 
-.footer .col {
-  padding: 0 40px;
+.nav-div {
+  display: flex;
 }
 
-.footer .nav-link{
-  color: var(--white-); /* Ajusta el color del texto según tus necesidades */
+.foo-link {
+  margin-right: 40px;
+  color: var(--white-);
+}
+
+.contact-div{
+  margin-right: 40px;
+  display: flex;
+}
+
+.contact-div{
+  margin-right: 5px;
+}
+
+.mail {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.cel {
+  margin-left: 15px;
+  margin-right: 5px;
 }
