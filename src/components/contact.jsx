@@ -1,6 +1,7 @@
 function Contact() {
     return (
         <>
+        <section className="contact-section">
             <div className="contact-container">
                 <div className="contact">
                     <h4>¿Necesitas un desarrollador web?</h4>
@@ -9,6 +10,7 @@ function Contact() {
                     <h6>+57 316 270 2385</h6>
                 </div>
             </div>
+            </section>
         </>
     )
 }

@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'
 
 function W2d() {
     useEffect(() => {
         // Al montar el componente, desplázate al principio
         window.scrollTo(0, 0);
-      }, []);
-    
+    }, []);
+
     return (
         <>
             <section className="w2d">
