@@ -9,7 +9,7 @@
         /* Ocupar el 100% del ancho */
         order: 2;
         /* Cambiar el orden, para que aparezca antes en el diseño */
-        padding: 10px 10px 0px 10px;
+        padding: 10px 15px 0px 10px;
     }
 
     .hero-principal {
@@ -28,7 +28,7 @@
     }
 
     .hero-principal p {
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin: 0;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
@@ -37,6 +37,7 @@
     .retrato {
         width: 80%;
         /* Ocupar el 100% del ancho */
+        padding: 10px 2px 0px 2px;
     }
 
     .perfil img {
@@ -57,7 +58,7 @@
     }
 
     .hero-certi-uade img {
-        max-width: 70px;
+        max-width: 80px;
         /* ajusta el tamaño según tus necesidades */
         margin: 40px 0px 0px 10px;
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
@@ -75,29 +76,36 @@
         /* Ajusta el valor según sea necesario */
         margin-bottom: 40px;
         /* Ajusta el valor según sea necesario */
+
     }
 
-    .card-proyect {
-        flex: 1 0 100%; /* Ocupar el 100% del ancho, pero permitir que se reduzca según sea necesario */
-    }
 
     .card-proyect .card {
         /* Puedes ajustar el tamaño de la tarjeta según sea necesario */
-        width: 80%;
+        width: 100%;
         /* Ajusta el tamaño de acuerdo a tus necesidades */
-        margin: 0 auto; /* Centra la tarjeta horizontalmente */
+        margin: 0px 0px 20px 0px;
+        /* Centra la tarjeta horizontalmente */
     }
+
+
 
     /* ------------------------------ TECHS -------------------------------- */
 
+
     .tech-icons img {
         max-width: 80%;
+        height: auto;
+    }
+
+    .icon-box {
+        margin: 0;
     }
 
     /* ------------------------------ CONTACT -------------------------------- */
 
     .contact {
-        padding: 10px 10px 0px 10px;
+        padding: 0;
         margin: 0;
     }
 
@@ -123,6 +131,8 @@
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
     }
+
+    /* ------------------------------ FOOTER -------------------------------- */
 }
 
 
