@@ -23,7 +23,7 @@
     }
 
     .hero-principal h1 {
-        font-size: 2.2em;
+        font-size: 2.3em;
         text-align: center;
     }
 
@@ -65,20 +65,49 @@
 
     /* ------------------------------ PROYECTS -------------------------------- */
 
-    .cards-proyects {
-        flex-direction: column;
-        /* Se colocan uno encima del otro */
-        align-items: center;
-        /* Se centran los elementos */
+    .title {
+        font-size: 2em;
+
     }
 
     .card {
-        margin-top: 10px;
+
         /* Ajusta el valor según sea necesario */
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         /* Ajusta el valor según sea necesario */
     }
 
+    .tech-icons img {
+        max-width: 80%;
+    }
+
+    .contact {
+        padding: 10px 10px 0px 10px;
+        margin: 0;
+    }
+
+    .contact-box {
+        margin: 20px 0px;
+        padding: 0px 5px;
+    }
+
+    .contact-box h4 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contact-box h6 {
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-box h3 {
+        font-size: 2em;
+        margin: 0;
+        /* margen arriba | margen derecha | margen abajo | margen izquierda */
+        text-align: center;
+    }
 }
 
 
