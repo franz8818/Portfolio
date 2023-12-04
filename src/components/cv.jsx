@@ -34,7 +34,7 @@ function Cv() {
                         <h2 style={{ fontSize: '1.8em', maxWidth: '400px', color: 'var(--shadow-)' }}>Desarrollador Frontend Diseñador web</h2>
                         <hr style={{ margin: '20px 0', height: '2px', backgroundColor: 'var(--shadow-)' }} />
                     </div>
-                    <div className="contacto" style={{ width: '380px' }}>
+                    <div className="contacto" style={{ width: '380px'}}>
                         <div style={contactoStyles}>
                             <h2 style={{ fontSize: '0.4em', textAlign: 'center', margin: '0 auto' }}><i className="fa-regular fa-envelope" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>franz8818@gmail.com</h2>
                             <h2 style={{ fontSize: '0.4em', marginTop: "5px", textAlign: 'center', margin: '0 auto' }}><i className="fa-solid fa-mobile-screen-button" style={{ color: 'var(--white-)', marginRight: "5px" }}></i>+57 316 270 2385</h2>

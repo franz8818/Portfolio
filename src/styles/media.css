@@ -2,9 +2,14 @@
 
 @media screen and (max-width: 430px) {
 
-    .hero {
-        margin: 0;
-        /* Establece el margen a cero para quitarlo */
+    /* ------------------------------ HERO -------------------------------- */
+
+    .hero-intro {
+        width: 100%;
+        /* Ocupar el 100% del ancho */
+        order: 2;
+        /* Cambiar el orden, para que aparezca antes en el diseño */
+        padding: 10px 10px 0px 10px;
     }
 
     .hero-principal {
@@ -14,18 +19,51 @@
 
     .hero-principal h3 {
         font-size: 1.3em;
+        text-align: center;
     }
 
     .hero-principal h1 {
-        font-size: 2.1em;
+        font-size: 2.2em;
+        text-align: center;
     }
 
     .hero-principal p {
-        font-size: 1.2em;
-        margin: 20px 0px 0px 0px;
+        font-size: 1.3em;
+        margin: 0;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
+        text-align: center;
     }
 
+    .retrato {
+        width: 80%;
+        /* Ocupar el 100% del ancho */
+    }
+
+    .perfil img {
+        order: 1;
+        /* "Retrato" se coloca arriba de "intro" */
+        margin: 30px 0px 0px 0px;
+    }
+
+    .certi {
+        margin: 0%;
+    }
+
+    .hero-certi img {
+        max-width: 70px;
+        /* ajusta el tamaño según tus necesidades */
+        margin: 20px 0px 0px 20px;
+        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
+    }
+
+    .hero-certi-uade img {
+        max-width: 70px;
+        /* ajusta el tamaño según tus necesidades */
+        margin: 40px 0px 0px 10px;
+        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
+    }
+
+    /* ------------------------------ PROYECTS -------------------------------- */
 
     .cards-proyects {
         flex-direction: column;
@@ -81,7 +119,7 @@
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
     .hero {
-        margin: 40px 50px;
+        margin: 0;
     }
 
     .hero-principal {
@@ -89,6 +127,7 @@
         /* Se colocan uno encima del otro */
         align-items: center;
         /* Se centran los elementos */
+        text-align: center;
     }
 
     .intro {
@@ -105,6 +144,7 @@
         /* Ancho que ocupa el DIV */
         margin-bottom: 50px;
         /* Aumenta el margen de abajo */
+        height: auto;
     }
 
 }
