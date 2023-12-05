@@ -98,7 +98,7 @@
 
 .hero-principal h1 {
   font-weight: 700;
-  font-size: 3.8em;
+  font-size: 4em;
   text-align: left;
   color: var(--black-);
 }
@@ -132,7 +132,7 @@ margin-right: 120px;
 /* FOTO PERFIL */
 .perfil {
   width: 335px; /* Establece un ancho máximo para la imagen si es necesario */
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 /* ------PROYECTS------------------------------------------------------------------------------------------------------------ */

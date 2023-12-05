@@ -4,12 +4,15 @@
 
     /* ------------------------------ HERO -------------------------------- */
 
+    .container {
+        padding: 5px;
+    }
+
     .hero-intro {
         width: 100%;
         /* Ocupar el 100% del ancho */
         order: 2;
         /* Cambiar el orden, para que aparezca antes en el diseño */
-        padding: 10px 15px 0px 10px;
     }
 
     .hero-principal {
@@ -43,7 +46,10 @@
     .perfil img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
-        margin: 30px 0px 0px 0px;
+    }
+
+    .perfil {
+        width: 70%;
     }
 
     .certi {
@@ -156,7 +162,7 @@
         /* Ocupar el 100% del ancho */
         order: 2;
         /* Cambiar el orden, para que aparezca antes en el diseño */
-        padding: 10px 30px 0px 10px;
+        padding: 0px 30px 30px 30px;
     }
 
     .hero-principal {
@@ -165,7 +171,7 @@
     }
 
     .hero-principal h3 {
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
     }
 
@@ -182,15 +188,18 @@
     }
 
     .retrato {
-        width: 80%;
+        width: 100%;
         /* Ocupar el 100% del ancho */
-        padding: 10px 2px 0px 2px;
+        padding: 0px 2px 0px 2px;
     }
 
     .perfil img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
-        margin: 30px 0px 0px 0px;
+    }
+
+    .perfil{
+        margin: 20px 0px 0px 0px;
     }
 
     .certi {
@@ -219,7 +228,7 @@
     }
 
     .card {
-
+        
         /* Ajusta el valor según sea necesario */
         margin-bottom: 40px;
         /* Ajusta el valor según sea necesario */
@@ -347,7 +356,7 @@
         /* "Retrato" se coloca arriba de "intro" */
         max-width: 100%;
         /* Ancho que ocupa el DIV */
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         /* Aumenta el margen de abajo */
         height: auto;
     }
