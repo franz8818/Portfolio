@@ -77,15 +77,6 @@
 
     }
 
-    .card {
-
-        /* Ajusta el valor según sea necesario */
-        margin-bottom: 40px;
-        /* Ajusta el valor según sea necesario */
-
-    }
-
-
     .card-proyect .card {
         /* Puedes ajustar el tamaño de la tarjeta según sea necesario */
         width: 100%;
@@ -224,15 +215,13 @@
 
     .title {
         font-size: 2em;
-
     }
 
-    .card {
-        
+    .card-proyects {
+        margin: 20px 10px 0px 10px;
         /* Ajusta el valor según sea necesario */
         margin-bottom: 40px;
         /* Ajusta el valor según sea necesario */
-
     }
 
 
@@ -248,6 +237,9 @@
 
     /* ------------------------------ TECHS -------------------------------- */
 
+    .techs {
+        margin: 20px 10px 0px 10px;
+    }
 
     .tech-icons img {
         max-width: 95%;
