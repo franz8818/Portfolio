@@ -110,8 +110,8 @@
     }
 
     .contact-box {
-        margin: 20px 0px;
-        padding: 0px 5px;
+        margin: 60px 0px;
+        padding: 0;
     }
 
     .contact-box h4 {
@@ -170,12 +170,12 @@
     }
 
     .hero-principal h1 {
-        font-size: 3em;
+        font-size: 2.5em;
         text-align: center;
     }
 
     .hero-principal p {
-        font-size: 2em;
+        font-size: 1.5em;
         margin: 0;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
@@ -198,14 +198,14 @@
     }
 
     .hero-certi img {
-        width: 130px;
+        width: 100px;
         /* ajusta el tamaño según tus necesidades */
-        margin: 20px 0px 0px 50px;
+        margin: 20px 0px 0px 20px;
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
     }
 
     .hero-certi-uade img {
-        width: 130px;
+        width: 100px;
         /* ajusta el tamaño según tus necesidades */
         margin: 40px 0px 0px 10px;
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
@@ -241,7 +241,7 @@
 
 
     .tech-icons img {
-        max-width: 80%;
+        max-width: 95%;
         height: auto;
     }
 
@@ -257,7 +257,7 @@
     }
 
     .contact-box {
-        margin: 20px 0px;
+        margin: 60px 0px;
         padding: 0px 5px;
     }
 
