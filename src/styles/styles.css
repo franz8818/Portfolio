@@ -161,7 +161,7 @@ margin-right: 120px;
   border: 1.3px solid;
   border-radius: 20px;
   font-size: 1.1em;
-  height: 460px;
+  height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
   transition: box-shadow 0.3s ease;

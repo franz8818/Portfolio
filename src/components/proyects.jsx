@@ -8,7 +8,7 @@ function Proyects() {
       <section className="proyects">
         <div className="cards-proyects row">
           <h2 className='title'>Proyectos</h2>
-          <div className="card-proyect col-12 col-md-4">
+          <div className="card-proyect col-12 col-lg-4">
             <Link to="/proyectW2d" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
@@ -30,7 +30,7 @@ function Proyects() {
               </div>
             </Link>
           </div>
-          <div className="card-proyect col-12 col-md-4">
+          <div className="card-proyect col-12 col-lg-4">
             <Link to="/starwarsProyect" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/starwars-proyect-cover.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
@@ -49,7 +49,7 @@ function Proyects() {
               </div>
             </Link>
           </div>
-          <div className="card-proyect col-12 col-md-4">
+          <div className="card-proyect col-12 col-lg-4">
             <Link to="/starwarsRestApi" className="card-link">
               <div className="card">
                 <img className="img-proyects" src="src/assets/starwarsAPI-cover.png" alt="StarWars Rest API" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}

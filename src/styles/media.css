@@ -1,16 +1,20 @@
 /* -----MEDIA:QUERYS--------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 430px) {
-
-    /* ------------------------------ HERO -------------------------------- */
+@media screen and (max-width: 440px) {
 
     .container {
         padding: 2px;
     }
 
+    /* ------------------------------ HERO -------------------------------- */
+
     .perfil {
         width: 70%;
     }
+
+    .contact-div {
+        display: none; /* Oculta el contact-div en dispositivos con ancho de pantalla menor a 430px */
+      }
 
 }
 
@@ -18,8 +22,11 @@
 /* Breakpoint <600px */
 @media screen and (max-width: 600px) {
 
-    /* ------------------------------ NAVBAR -------------------------------- */
+    .container {
+        padding: 2px;
+    }
 
+    /* ------------------------------ NAVBAR -------------------------------- */    
     .navbar {
         margin: 30px;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
@@ -43,7 +50,6 @@
     .hero-principal p {
         font-size: 1.3em;
         margin: 0;
-        /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
     }
 
@@ -52,15 +58,13 @@
     }
 
     .hero-certi img {
-        margin: 20px 5px 0px 20px;
-        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
+        margin: 0px 5px 0px 20px;
         max-width: 65px;
         /* ajusta el tamaño según tus necesidades */
     }
 
     .hero-certi-uade img {
         margin: 40px 5px 0px 10px;
-        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
         max-width: 65px;
         /* ajusta el tamaño según tus necesidades */
     }
@@ -77,12 +81,11 @@
     }
 
     .card-proyect .card {
-        width: 100%;
-        /* Ajusta el tamaño de acuerdo a tus necesidades */
         margin: 0px 0px 20px 0px;
         /* Centra la tarjeta horizontalmente */
         height: auto;
     }
+
 
     /* ------------------------------ TECHS -------------------------------- */
 
@@ -128,10 +131,17 @@
 
 }
 
+@media screen and (max-width: 799px) {
+    
+    .contacto {
+    display: none;
+  }
+}
+
 /* Breakpoint <993px */
 @media screen and (max-width: 993px) {
 
-    /* ------------------------------ NAVBAR -------------------------------- */
+    /* ---------------------------------- NAVBAR ------------------------------------ */
 
     .navbar-collapse {
         text-align: center;
@@ -160,10 +170,62 @@
         margin: 10px 30px 40px 30px;
     }
 
-}
+    .hero-principal h3 {
+        text-align: center;
+    }
 
+    .hero-principal h1 {
+        text-align: center;
+    }
 
-/* Breakpoint <993px */
-@media screen and (max-width: 994px) {
-   
+    .hero-principal p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .certi {
+        margin: 20px;
+    }
+
+    .hero-certi img {
+        margin: 0px 5px 0px 20px;
+        /* ajusta el tamaño según tus necesidades */
+    }
+
+    .hero-certi-uade img {
+        margin: 20px 5px 0px 10px;
+        /* ajusta el tamaño según tus necesidades */
+    }
+
+    .proyects {
+        margin: 10px 20px 0px 20px;
+    }
+
+    .card-proyect .card {
+        width: 100%;
+        /* Ajusta el tamaño de acuerdo a tus necesidades */
+        margin: 0px 0px 20px 0px;
+        /* Centra la tarjeta horizontalmente */
+    }
+
+    .tech-icons img {
+        max-width: 75%;
+    }
+
+    /* --------------------------------- FOOTER ----------------------------------- */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .nav-div{
+        margin-left: 60px;
+    }
 }
