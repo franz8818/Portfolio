@@ -5,7 +5,9 @@
   /* Ancho maximo */
   margin: 0 auto;
   /* Se centra */
+  padding: 0px 50px 0px 50px;
 }
+
 
 /* CONTENEDOR DE LIMPIEZA: se utiliza para manejar problemas relacionados con el diseño y la flotación de elementos, especialmente cuando se trabaja con grillas y elementos flotantes en CSS. */
 /* .row::after{
@@ -134,6 +136,12 @@ margin-right: 120px;
   margin-top: 90px;
 }
 
+.retrato img {
+  order: 1;
+  /* "Retrato" se coloca arriba de "intro" */
+  margin: 80px 0px 40px 0px;
+}
+
 .title {
   margin-bottom: 20px;
   font-size: 3em;
@@ -153,7 +161,7 @@ margin-right: 120px;
   border: 1.3px solid;
   border-radius: 20px;
   font-size: 1.1em;
-  height: 440px;
+  height: 460px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
   transition: box-shadow 0.3s ease;

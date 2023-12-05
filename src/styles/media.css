@@ -5,126 +5,13 @@
     /* ------------------------------ HERO -------------------------------- */
 
     .container {
-        padding: 5px;
-    }
-
-    .hero-intro {
-        width: 100%;
-        /* Ocupar el 100% del ancho */
-        order: 2;
-        /* Cambiar el orden, para que aparezca antes en el diseño */
-    }
-
-    .hero-principal {
-        justify-content: center;
-        /* Para centrar */
-    }
-
-    .hero-principal h3 {
-        font-size: 1.3em;
-        text-align: center;
-    }
-
-    .hero-principal h1 {
-        font-size: 2.3em;
-        text-align: center;
-    }
-
-    .hero-principal p {
-        font-size: 1.5em;
-        margin: 0;
-        /* margen arriba | margen derecha | margen abajo | margen izquierda */
-        text-align: center;
-    }
-
-    .retrato {
-        width: 80%;
-        /* Ocupar el 100% del ancho */
-        padding: 10px 2px 0px 2px;
-    }
-
-    .perfil img {
-        order: 1;
-        /* "Retrato" se coloca arriba de "intro" */
+        padding: 2px;
     }
 
     .perfil {
         width: 70%;
     }
 
-    .certi {
-        margin: 0%;
-    }
-
-    .hero-certi img {
-        max-width: 70px;
-        /* ajusta el tamaño según tus necesidades */
-        margin: 20px 0px 0px 20px;
-        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
-    }
-
-    .hero-certi-uade img {
-        max-width: 80px;
-        /* ajusta el tamaño según tus necesidades */
-        margin: 40px 0px 0px 10px;
-        /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
-    }
-
-    /* ------------------------------ PROYECTS -------------------------------- */
-
-    .title {
-        font-size: 2em;
-
-    }
-
-    .card-proyect .card {
-        width: 100%;
-        /* Ajusta el tamaño de acuerdo a tus necesidades */
-    }
-
-    /* ------------------------------ TECHS -------------------------------- */
-
-
-    .tech-icons img {
-        max-width: 80%;
-        height: auto;
-    }
-
-    .icon-box {
-        margin: 0;
-    }
-
-    /* ------------------------------ CONTACT -------------------------------- */
-
-    .contact {
-        padding: 0;
-        margin: 0;
-    }
-
-    .contact-box {
-        margin: 60px 0px;
-        padding: 0;
-    }
-
-    .contact-box h4 {
-        font-size: 1em;
-        text-align: center;
-    }
-
-    .contact-box h6 {
-        font-size: 0.8em;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .contact-box h3 {
-        font-size: 2em;
-        margin: 0;
-        /* margen arriba | margen derecha | margen abajo | margen izquierda */
-        text-align: center;
-    }
-
-    /* ------------------------------ FOOTER -------------------------------- */
 }
 
 
@@ -141,20 +28,7 @@
         /* Se centran los elementos */
     }
 
-     /* ------------------------------ HERO -------------------------------- */
-
-     .hero-intro {
-        width: 100%;
-        /* Ocupar el 100% del ancho */
-        order: 2;
-        /* Cambiar el orden, para que aparezca antes en el diseño */
-        padding: 0px 30px 30px 30px;
-    }
-
-    .hero-principal {
-        justify-content: center;
-        /* Para centrar */
-    }
+    /* ------------------------------ HERO -------------------------------- */
 
     .hero-principal h3 {
         font-size: 1.5em;
@@ -162,48 +36,33 @@
     }
 
     .hero-principal h1 {
-        font-size: 2.5em;
+        font-size: 2.3em;
         text-align: center;
     }
 
     .hero-principal p {
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 0;
         /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
     }
 
-    .retrato {
-        width: 100%;
-        /* Ocupar el 100% del ancho */
-        padding: 0px 2px 0px 2px;
-    }
-
-    .perfil img {
-        order: 1;
-        /* "Retrato" se coloca arriba de "intro" */
-    }
-
-    .perfil{
-        margin: 20px 0px 0px 0px;
-    }
-
     .certi {
-        margin: 0%;
+        margin: 0px 10px 0px 10px;
     }
 
     .hero-certi img {
-        width: 100px;
-        /* ajusta el tamaño según tus necesidades */
-        margin: 20px 0px 0px 20px;
+        margin: 20px 5px 0px 20px;
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
+        max-width: 65px;
+        /* ajusta el tamaño según tus necesidades */
     }
 
     .hero-certi-uade img {
-        width: 100px;
-        /* ajusta el tamaño según tus necesidades */
-        margin: 40px 0px 0px 10px;
+        margin: 40px 5px 0px 10px;
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
+        max-width: 65px;
+        /* ajusta el tamaño según tus necesidades */
     }
 
     .title {
@@ -214,27 +73,25 @@
     /* ------------------------------ PROYECTS -------------------------------- */
 
     .proyects {
-        margin: 10px 10px 0px 10px;
+        margin: 10px 20px 0px 20px;
     }
-    
+
     .card-proyect .card {
-        /* Puedes ajustar el tamaño de la tarjeta según sea necesario */
         width: 100%;
         /* Ajusta el tamaño de acuerdo a tus necesidades */
         margin: 0px 0px 20px 0px;
         /* Centra la tarjeta horizontalmente */
-        height: 420px;
+        height: auto;
     }
 
     /* ------------------------------ TECHS -------------------------------- */
 
     .techs {
-        margin: 20px 10px 0px 10px;
+        margin: 20px 30px 0px 30px;
     }
 
     .tech-icons img {
-        max-width: 95%;
-        height: auto;
+        max-width: 65%;
     }
 
     .icon-box {
@@ -249,112 +106,64 @@
     }
 
     .contact-box {
-        margin: 60px 0px;
-        padding: 0px 5px;
+        margin: 60px;
+        padding: 5px;
     }
 
     .contact-box h4 {
-        font-size: 1em;
+        font-size: 1.2em;
         text-align: center;
-    }
-
-    .contact-box h6 {
-        font-size: 0.8em;
-        text-align: center;
-        margin-top: 10px;
     }
 
     .contact-box h3 {
         font-size: 2em;
-        margin: 0;
-        /* margen arriba | margen derecha | margen abajo | margen izquierda */
         text-align: center;
+    }
+
+    .contact-box h6 {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 8px;
     }
 
 }
 
-
-
-
-
-
-
-
-/* Breakpoint <768px */
-
-
-
-
-
-
-
-
-
-
-
-
 /* Breakpoint <993px */
 @media screen and (max-width: 993px) {
+
+    /* ------------------------------ NAVBAR -------------------------------- */
 
     .navbar-collapse {
         text-align: center;
         /* Centra el contenido del menú */
     }
 
-    .navbar-nav {
-        margin: 0 auto;
-        /* Centra el contenido horizontalmente */
-        display: table;
-        /* Hace que el margin: auto funcione */
-    }
-
-    .navbar {
-        margin-bottom: 0;
-    }
-
-
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
-    .hero {
-        margin: 0;
-    }
-
-    .hero-principal {
-        flex-direction: column;
-        /* Se colocan uno encima del otro */
-        align-items: center;
-        /* Se centran los elementos */
-        text-align: center;
-    }
-
-    .intro {
-        order: 2;
+    .hero-intro {
         width: 100%;
-        /* Ancho que ocupa el DIV */
+        /* Ocupar el 100% del ancho */
+        order: 2;
+        /* Cambiar el orden, para que aparezca antes en el diseño */
+        padding: 0px 30px 30px 30px;
+    }
 
+    .retrato {
+        width: 100%;
+        /* Ocupar el 100% del ancho */
+        padding: 0px 2px 0px 2px;
     }
 
     .retrato img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
-        max-width: 100%;
-        /* Ancho que ocupa el DIV */
-        margin-bottom: 30px;
-        /* Aumenta el margen de abajo */
-        height: auto;
+        margin: 10px 30px 40px 30px;
     }
 
 }
 
 
-
-
-
-
-
 /* Breakpoint <993px */
-@media screen and (min-width: 994px) {
-    .container {
-        padding: 0px 50px 0px 50px;
-    }
+@media screen and (max-width: 994px) {
+   
 }
