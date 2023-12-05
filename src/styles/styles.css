@@ -134,17 +134,17 @@ margin-right: 120px;
   margin-top: 90px;
 }
 
-/* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
-.proyects {
-  margin: 50px 10px 10px 10px;
-}
-
 .title {
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 20px;
   font-size: 3em;
   font-weight: 700;
   color: var(--bluer-);
   text-align: center;
+}
+
+/* ------PROYECTS------------------------------------------------------------------------------------------------------------ */
+.proyects {
+  margin: 50px 10px 10px 10px;
 }
 
 .card {

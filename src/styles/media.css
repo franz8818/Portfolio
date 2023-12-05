@@ -78,14 +78,9 @@
     }
 
     .card-proyect .card {
-        /* Puedes ajustar el tamaño de la tarjeta según sea necesario */
         width: 100%;
         /* Ajusta el tamaño de acuerdo a tus necesidades */
-        margin: 0px 0px 20px 0px;
-        /* Centra la tarjeta horizontalmente */
     }
-
-
 
     /* ------------------------------ TECHS -------------------------------- */
 
@@ -211,29 +206,25 @@
         /* ajusta el margen inferior según tus necesidades o ponlo a 0 para eliminarlo */
     }
 
+    .title {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
     /* ------------------------------ PROYECTS -------------------------------- */
 
-    .title {
-        font-size: 2em;
+    .proyects {
+        margin: 10px 10px 0px 10px;
     }
-
-    .card-proyects {
-        margin: 20px 10px 0px 10px;
-        /* Ajusta el valor según sea necesario */
-        margin-bottom: 40px;
-        /* Ajusta el valor según sea necesario */
-    }
-
-
+    
     .card-proyect .card {
         /* Puedes ajustar el tamaño de la tarjeta según sea necesario */
         width: 100%;
         /* Ajusta el tamaño de acuerdo a tus necesidades */
         margin: 0px 0px 20px 0px;
         /* Centra la tarjeta horizontalmente */
+        height: 420px;
     }
-
-
 
     /* ------------------------------ TECHS -------------------------------- */
 
