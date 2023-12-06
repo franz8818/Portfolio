@@ -139,7 +139,7 @@
 }
 
 /* Breakpoint <993px */
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 997px) {
 
     /* ---------------------------------- NAVBAR ------------------------------------ */
 
@@ -167,7 +167,7 @@
     .retrato img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
-        margin: 10px 30px 40px 30px;
+        margin: 0px 30px 30px 30px;
     }
 
     .hero-principal h3 {
@@ -175,12 +175,14 @@
     }
 
     .hero-principal h1 {
+        font-size: 3.0em;
         text-align: center;
     }
 
     .hero-principal p {
         margin: 0;
         text-align: center;
+        font-size: 2em;
     }
 
     .certi {
@@ -198,13 +200,13 @@
     }
 
     .proyects {
-        margin: 10px 20px 0px 20px;
+        margin: 10px 40px 0px 40px;
     }
 
     .card-proyect .card {
         width: 100%;
         /* Ajusta el tamaño de acuerdo a tus necesidades */
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 60px 0px;
         /* Centra la tarjeta horizontalmente */
     }
 
@@ -229,3 +231,25 @@
         margin-left: 60px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    
+    .intro-proyect.row {
+      flex-direction: column;
+    }
+    
+    .intro-pic {
+        order: 3;
+        width: 100%;
+    }
+    .intro {
+        order: 2;
+      width: 100%;
+    }
+
+    .intro-name {
+        order: 1;
+        width: 100%;
+    }
+    
+  }

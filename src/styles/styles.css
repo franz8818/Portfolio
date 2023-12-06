@@ -219,12 +219,11 @@ margin-right: 120px;
   font-size: 1.2em;
 }
 
-.intro-proyects {
-  width: 480px;
+.intro-img {
+  width: 100%;
+  max-width: 100%; /* No excede el 100% del ancho del contenedor padre */
   height: auto;
   margin: 50px 0px 5px 2px;
-  border-radius: 20px;
-  /* Bordes redondeados, ajusta según tus preferencias */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
   transition: box-shadow 0.3s ease;
