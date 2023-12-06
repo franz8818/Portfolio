@@ -24,10 +24,10 @@ function W2d() {
                             <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
                         </a>
                         <div className="intro-pic col-6">
-                            <img className="intro-proyects" src="/vite.svg" alt="Where2Day" />
-                            <img className="intro-proyects" src="src/assets/w2dfeed.png" alt="Where2Day" />
-                            <img className="intro-proyects" src="src/assets/w2dpost0.png" alt="Where2Day" />
-                            <img className="intro-proyects" src="src/assets/w2dpost3.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="Where2Day/w2dfeed.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="Where2Day/w2dpost0.png" alt="Where2Day" />
+                            <img className="intro-proyects" src="Where2Day/w2dpost3.png" alt="Where2Day" />
                         </div>
                     </div>
                     <div className="intro col-6">
