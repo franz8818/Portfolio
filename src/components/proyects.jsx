@@ -11,7 +11,7 @@ function Proyects() {
           <div className="card-proyect col-12 col-lg-4">
             <Link to="/proyectW2d" className="card-link">
               <div className="card">
-                <img className="img-proyects" src="src/assets/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
+                <img className="img-proyects" src="Where2Day/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title">Where2Day
                   </h3>
@@ -33,7 +33,7 @@ function Proyects() {
           <div className="card-proyect col-12 col-lg-4">
             <Link to="/starwarsProyect" className="card-link">
               <div className="card">
-                <img className="img-proyects" src="src/assets/starwars-proyect-cover.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
+                <img className="img-proyects" src="StarWars Proyect/starwars-proyect-cover.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title ">StarWars Proyect</h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
@@ -52,7 +52,7 @@ function Proyects() {
           <div className="card-proyect col-12 col-lg-4">
             <Link to="/starwarsRestApi" className="card-link">
               <div className="card">
-                <img className="img-proyects" src="src/assets/starwarsAPI-cover.png" alt="StarWars Rest API" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
+                <img className="img-proyects" src="StarWars Rest API/starwarsAPI-cover.png" alt="StarWars Rest API" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title">StarWars Rest API</h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
