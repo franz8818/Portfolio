@@ -10,29 +10,22 @@ function W2d() {
         <>
             <section className="w2d">
                 <div className="intro-proyect row">
-                    <div className="intro-details col-6">
-                    <div className="intro-name">
-                        <h1>Where2Day</h1>
-                        <h4>Una red social para compartir experiencias</h4>
-                        <h5>Mis funciones</h5>
-                        <h6>UX / UI </h6>
-                        <h6>Diseño de la página web</h6>
-                        <h6>Diseño de funcionalidades</h6>
-                        <a
-                            href="https://github.com/Charlytoc/where2day"
-                            target="_blank"
-                            rel="noopener noreferrer" className="repo-link">
-                            <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
-                        </a>
-                        </div>
-                        <div className="intro-pic col-6">
-                            <img className="intro-img" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
-                            <img className="intro-img" src="Where2Day/w2dfeed.png" alt="Where2Day" />
-                            <img className="intro-img" src="Where2Day/w2dpost0.png" alt="Where2Day" />
-                            <img className="intro-img" src="Where2Day/w2dpost3.png" alt="Where2Day" />
-                        </div>
-                    </div>
-                    <div className="intro col-6">
+                    <div className="intro-details col-md-6">
+                        <div className="intro-name">
+                            <h1>Where2Day</h1>
+                            <h5>Una red social para compartir experiencias</h5>
+                            <h4>Mis funciones</h4>
+                            <h6>UX / UI </h6>
+                            <h6>Diseño de la página web</h6>
+                            <h6>Diseño de funcionalidades</h6>
+                            <a
+                                href="https://github.com/Charlytoc/where2day"
+                                target="_blank"
+                                rel="noopener noreferrer" className="repo-link">
+                                <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
+                            </a>
+                            </div>
+                            <div className="intro-text">
                         <p className="info-text">
                             Where2day" es una plataforma basada en web que permite a los usuarios compartir y descubrir nuevas experiencias en su área local. El sitio está construido utilizando React para el front-end, CSS para el estilo, GSAP para animaciones, Python para el backend y Flask para el marco web.
                             <br />
@@ -48,6 +41,13 @@ function W2d() {
                             <br />
                             En general, "Where2day" es un gran recurso para cualquiera que busque probar cosas nuevas y aprovechar al máximo sus días. Con su contenido generado por el usuario y su función de búsqueda fácil de usar, es una excelente manera de descubrir nuevas experiencias y aprovechar al máximo su tiempo.
                         </p>
+                        </div>
+                    </div>
+                    <div className="intro-pic col-md-6">
+                        <img className="intro-img" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
+                        <img className="intro-img" src="Where2Day/w2dfeed.png" alt="Where2Day" />
+                        <img className="intro-img" src="Where2Day/w2dpost0.png" alt="Where2Day" />
+                        <img className="intro-img" src="Where2Day/w2dpost3.png" alt="Where2Day" />
                     </div>
                 </div>
             </section>

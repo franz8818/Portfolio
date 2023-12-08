@@ -2,71 +2,126 @@
 
 @media screen and (max-width: 440px) {
 
+    /* ------------------------------ NAVBAR -------------------------------- */
+    .navbar {
+        margin: 30px 30px 0px 30px !important;
+        align-items: center;
+        /* Se centran los elementos */
+    }
+
     .container {
-        padding: 2px;
+        padding: 5px !important;
     }
 
     /* ------------------------------ HERO -------------------------------- */
 
-    .perfil {
-        width: 70%;
+
+    .hero-principal h3 {
+        font-size: 2em !important;
     }
 
+    .hero-principal h1 {
+        font-size: 2em !important;
+        text-align: center !important;
+    }
+
+    .hero-principal p {
+        font-size: 1.2em !important;
+        margin: 10px !important;
+    }
+
+    .certi {
+        margin-top: 20px !important;
+    }
+
+    .hero-certi img {
+        margin: 0px 5px 0px 10px !important;
+        max-width: 65px;
+    }
+
+    .hero-certi-uade img {
+        margin: 10px 5px 0px 10px !important;
+        max-width: 65px;
+    }
+
+    /* ------------------------------ PROYECTS -------------------------------- */
+
+    .proyects {
+        margin: 10px 20px 0px 20px !important;
+    }
+
+
+    .card-proyect .card {
+        margin: 0px 0px 20px 0px !important;
+        height: auto;
+    }
+
+    /* ------------------------------ CV -------------------------------- */
+
     .contact-div {
-        display: none; /* Oculta el contact-div en dispositivos con ancho de pantalla menor a 430px */
-      }
+        display: none;
+        /* Oculta el contact-div en dispositivos con ancho de pantalla menor a 430px */
+    }
 
 }
-
 
 /* Breakpoint <600px */
 @media screen and (max-width: 600px) {
 
     .container {
-        padding: 2px;
+        padding: 8px;
     }
 
-    /* ------------------------------ NAVBAR -------------------------------- */    
+    /* ------------------------------ NAVBAR -------------------------------- */
     .navbar {
-        margin: 30px;
-        /* margen arriba | margen derecha | margen abajo | margen izquierda */
-
+        margin: 30px 30px 0px 30px;
         align-items: center;
         /* Se centran los elementos */
     }
 
     /* ------------------------------ HERO -------------------------------- */
 
+    .retrato {
+        padding: 0px !important;
+    }
+
+    .perfil {
+        width: 75% !important;
+    }
+
+    .hero-intro {
+        padding: 0 !important;
+    }
+
     .hero-principal h3 {
-        font-size: 1.5em;
+        font-size: 2em !important;
         text-align: center;
     }
 
     .hero-principal h1 {
-        font-size: 2.3em;
+        font-size: 2.5em !important;
+        margin: 0px 0px 20px 0px;
         text-align: center;
     }
 
     .hero-principal p {
-        font-size: 1.3em;
-        margin: 0;
+        font-size: 1.8em !important;
+        margin: 30px !important;
         text-align: center;
     }
 
     .certi {
-        margin: 0px 10px 0px 10px;
+        padding: 0 !important;
     }
 
     .hero-certi img {
         margin: 0px 5px 0px 20px;
-        max-width: 65px;
-        /* ajusta el tamaño según tus necesidades */
+        max-width: 80px;
     }
 
     .hero-certi-uade img {
-        margin: 40px 5px 0px 10px;
-        max-width: 65px;
-        /* ajusta el tamaño según tus necesidades */
+        margin-top: 20px !important;
+        max-width: 80px;
     }
 
     .title {
@@ -77,15 +132,12 @@
     /* ------------------------------ PROYECTS -------------------------------- */
 
     .proyects {
-        margin: 10px 20px 0px 20px;
+        margin: 20px 30px 0px 30px !important;
     }
 
     .card-proyect .card {
-        margin: 0px 0px 20px 0px;
-        /* Centra la tarjeta horizontalmente */
-        height: auto;
+        margin: 0px 0px 10px 0px !important;
     }
-
 
     /* ------------------------------ TECHS -------------------------------- */
 
@@ -131,58 +183,104 @@
 
 }
 
-@media screen and (max-width: 799px) {
-    
+@media screen and (max-width: 800px) {
+
+    /* ------------------------------ CONTACT -------------------------------- */
+
     .contacto {
-    display: none;
-  }
+        display: none;
+    }
+
+    /* ------------------------------ HERO -------------------------------- */
+
+    .hero-principal h3 {
+        font-size: 2em !important;
+    }
+
+    .hero-principal h1 {
+        font-size: 3em !important;
+        text-align: center !important;
+    }
+
+
+    .hero-principal p {
+        margin: 20px !important;
+    }
+
+    .perfil {
+        width: 75% !important;
+    }
+
+    /* ------------------------------ PROYECTS -------------------------------- */
+
+    .proyects {
+        margin: 10px 20px 0px 20px !important;
+    }
+
+    .card-proyect .card {
+        margin: 0px 60px 20px 60px !important;
+    }
+
+    /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
+
+    .intro-name h1 {
+        font-size: 4em;
+    }
+
+    .intro-name h4 {
+        font-size: 2.8em;
+    }
+
+    .intro-name h6 {
+        font-size: 1.8em;
+    }
 }
 
 /* Breakpoint <993px */
 @media screen and (max-width: 997px) {
 
-    /* ---------------------------------- NAVBAR ------------------------------------ */
-
-    .navbar-collapse {
-        text-align: center;
-        /* Centra el contenido del menú */
-    }
-
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
+
+    .hero {
+        margin: 50px 40px 0px 40px !important;
+    }
 
     .hero-intro {
         width: 100%;
         /* Ocupar el 100% del ancho */
         order: 2;
-        /* Cambiar el orden, para que aparezca antes en el diseño */
-        padding: 0px 30px 30px 30px;
+        /* Cambia el orden */
+        padding: 0px 0px 30px 0px;
     }
 
     .retrato {
-        width: 100%;
-        /* Ocupar el 100% del ancho */
         padding: 0px 2px 0px 2px;
     }
 
     .retrato img {
         order: 1;
         /* "Retrato" se coloca arriba de "intro" */
-        margin: 0px 30px 30px 30px;
+        margin-bottom: 40px;
     }
 
     .hero-principal h3 {
+        font-size: 2.2em;
+        margin-top: 20px;
+        margin-bottom: 1px;
         text-align: center;
     }
 
     .hero-principal h1 {
-        font-size: 3.0em;
+        font-size: 3.5em;
         text-align: center;
+        margin: 0px 60px 20px 60px;
     }
 
     .hero-principal p {
         margin: 0;
+        margin-top: 20px;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .certi {
@@ -190,28 +288,64 @@
     }
 
     .hero-certi img {
-        margin: 0px 5px 0px 20px;
-        /* ajusta el tamaño según tus necesidades */
+        width: 140px;
+        margin: 0px 20px 0px 20px;
     }
 
     .hero-certi-uade img {
-        margin: 20px 5px 0px 10px;
-        /* ajusta el tamaño según tus necesidades */
+        width: 140px;
+        margin: 40px 20px 0px 10px;
     }
 
     .proyects {
-        margin: 10px 40px 0px 40px;
+        margin: 0px 5px 0px 5px !important;
+        padding: 80px;
     }
 
     .card-proyect .card {
-        width: 100%;
-        /* Ajusta el tamaño de acuerdo a tus necesidades */
-        margin: 0px 0px 60px 0px;
-        /* Centra la tarjeta horizontalmente */
+        margin: 0px 0px 30px 0px;
+    }
+
+    /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
+
+    .intro-name h1,
+    h5,
+    h6 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .intro-name h4 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 40px;
+    } 
+
+    .repo-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-pic {
+        margin: 0;
+        padding: 30px;
+    }
+
+    /* ------------------------------ TECHS -------------------------------- */
+
+    .techs {
+        margin: 20px 30px 0px 30px;
     }
 
     .tech-icons img {
         max-width: 75%;
+    }
+
+    /* ------------------------------ CONTACT -------------------------------- */
+
+    .contact {
+        padding: 0;
+        margin: 0;
     }
 
     /* --------------------------------- FOOTER ----------------------------------- */
@@ -227,29 +361,7 @@
         flex-direction: column;
     }
 
-    .nav-div{
+    .nav-div {
         margin-left: 60px;
     }
 }
-
-@media screen and (max-width: 1023px) {
-    
-    .intro-proyect.row {
-      flex-direction: column;
-    }
-    
-    .intro-pic {
-        order: 3;
-        width: 100%;
-    }
-    .intro {
-        order: 2;
-      width: 100%;
-    }
-
-    .intro-name {
-        order: 1;
-        width: 100%;
-    }
-    
-  }
