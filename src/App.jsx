@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
           </div>
-          <div className="retrato col-4">
+          <div className="retrato col-lg-4">
             <img className="perfil" src="perfil.jpg" alt="foto de perfil" />
           </div>
         </div>

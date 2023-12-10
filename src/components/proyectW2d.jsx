@@ -8,7 +8,7 @@ function W2d() {
 
     return (
         <>
-            <section className="w2d">
+            <section className=" container w2d">
                 <div className="intro-proyect row">
                     <div className="intro-details col-md-6">
                         <div className="intro-name">

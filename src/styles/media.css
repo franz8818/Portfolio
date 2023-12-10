@@ -8,11 +8,6 @@
         align-items: center;
         /* Se centran los elementos */
     }
-
-    .container {
-        padding: 5px !important;
-    }
-
     /* ------------------------------ HERO -------------------------------- */
 
 
@@ -25,35 +20,36 @@
         text-align: center !important;
     }
 
-    .hero-principal p {
-        font-size: 1.2em !important;
-        margin: 10px !important;
-    }
-
     .certi {
         margin-top: 20px !important;
     }
 
     .hero-certi img {
         margin: 0px 5px 0px 10px !important;
-        max-width: 65px;
+        max-width: 55px !important;
     }
 
     .hero-certi-uade img {
         margin: 10px 5px 0px 10px !important;
-        max-width: 65px;
+        max-width: 55px !important;
     }
 
     /* ------------------------------ PROYECTS -------------------------------- */
 
     .proyects {
-        margin: 10px 20px 0px 20px !important;
+        margin: 10px 0px 0px 0px !important;
+        padding: 0 !important;
     }
 
 
     .card-proyect .card {
         margin: 0px 0px 20px 0px !important;
         height: auto;
+    }
+
+
+    .intro-proyects {
+        padding: 0 !important;
     }
 
     /* ------------------------------ CV -------------------------------- */
@@ -83,10 +79,6 @@
 
     .retrato {
         padding: 0px !important;
-    }
-
-    .perfil {
-        width: 75% !important;
     }
 
     .hero-intro {
@@ -133,11 +125,13 @@
 
     .proyects {
         margin: 20px 30px 0px 30px !important;
+        padding: 0 !important;
     }
 
     .card-proyect .card {
         margin: 0px 0px 10px 0px !important;
     }
+    
 
     /* ------------------------------ TECHS -------------------------------- */
 
@@ -185,12 +179,6 @@
 
 @media screen and (max-width: 800px) {
 
-    /* ------------------------------ CONTACT -------------------------------- */
-
-    .contacto {
-        display: none;
-    }
-
     /* ------------------------------ HERO -------------------------------- */
 
     .hero-principal h3 {
@@ -198,51 +186,77 @@
     }
 
     .hero-principal h1 {
-        font-size: 3em !important;
+        font-size: 2.2em !important;
         text-align: center !important;
     }
 
-
     .hero-principal p {
         margin: 20px !important;
-    }
-
-    .perfil {
-        width: 75% !important;
     }
 
     /* ------------------------------ PROYECTS -------------------------------- */
 
     .proyects {
         margin: 10px 20px 0px 20px !important;
+        padding: 0px 30px 0px 30px !important;
     }
 
     .card-proyect .card {
-        margin: 0px 60px 20px 60px !important;
+        margin: 0px 0px 20px 0px !important;
     }
 
-    /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
+    /* -----------------------PROYECTS INFO------------------------------------ */
 
     .intro-name h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .intro-name h4 {
         font-size: 2.8em;
+        text-align: center;
     }
 
     .intro-name h6 {
         font-size: 1.8em;
     }
+
+    .intro-proyect {
+        padding: 0 !important;
+    }
+
+    .intro-name h1,
+    h6 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .intro-name h5 {
+        text-align: center
+    }
+
+    .repo-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-text {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .intro-img {
+        margin-top: 80px;
+    }
+
 }
 
-/* Breakpoint <993px */
+/* Breakpoint <997px */
 @media screen and (max-width: 997px) {
 
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
     .hero {
-        margin: 50px 40px 0px 40px !important;
+        margin: 50px 40px 0px 40px
     }
 
     .hero-intro {
@@ -273,7 +287,7 @@
     .hero-principal h1 {
         font-size: 3.5em;
         text-align: center;
-        margin: 0px 60px 20px 60px;
+        margin: 0px 10px 20px 10px;
     }
 
     .hero-principal p {
@@ -308,28 +322,29 @@
 
     /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
 
-    .intro-name h1,
-    h5,
-    h6 {
-        margin-top: 0;
-        text-align: center;
+    .intro-proyect {
+        padding: 0 !important;
+    }
+
+    .intro-name h1 {
+        font-size: 3em;
+        margin-top: 15px;
     }
 
     .intro-name h4 {
-        text-align: center;
-        font-size: 2.5em;
+        font-size: 2em;
         margin-top: 40px;
     } 
 
-    .repo-link {
-        display: flex;
-        justify-content: center;
+    .intro-pic {
+        margin-top: 5px;
+        padding: 20px;
     }
 
-    .intro-pic {
-        margin: 0;
-        padding: 30px;
+    .intro-img {
+        margin-top: 100px;
     }
+
 
     /* ------------------------------ TECHS -------------------------------- */
 
@@ -364,4 +379,17 @@
     .nav-div {
         margin-left: 60px;
     }
+
+    /* ------------------------------ CV -------------------------------- */
+
+    .contacto {
+        display: none;
+    }
+
+    .carrera,
+   .conocimientos {
+      width: 100%;
+      margin-top: 20px; /* Ajusta según sea necesario */
+   }
+
 }

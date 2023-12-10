@@ -138,12 +138,12 @@
 
 /* FOTO PERFIL */
 .perfil {
-  width: 100%;
+  width: 60%;
   /* Establece un ancho máximo para la imagen si es necesario */
 }
 
 .retrato img {
-  margin: 40px 0px 40px 0px;
+  margin-top: 10px;
 }
 
 .title {
@@ -170,6 +170,7 @@
   border-radius: 20px;
   font-size: 1.1em;
   height: auto;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Sombra con desplazamiento x=0, y=4px, desenfoque=8px y color RGBA */
   transition: box-shadow 0.3s ease;
@@ -197,7 +198,7 @@
 /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
 
 .intro-proyect{
-  padding: 0px 80px 0px 80px;
+  padding: 0px 50px 0px 50px;
 }
 
 .intro-name {
