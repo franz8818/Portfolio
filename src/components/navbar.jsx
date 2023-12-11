@@ -58,7 +58,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/cv">CV</Link>
+                <Link className="nav-link" to="/cv" onClick={handleDownloadCV}>CV</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/franz8818/" target="_blank" rel="noopener noreferrer">Linkedin</a>
