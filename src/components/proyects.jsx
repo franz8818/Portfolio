@@ -15,7 +15,7 @@ function Proyects() {
                 <div className="card-body">
                   <h3 className="card-title">Where2Day
                   </h3>
-                  <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
+                  <p className="card-text"> Plataforma web que permite a los usuarios compartir y descubrir nuevas experiencias. </p>
                   <div className='shields'>
                     <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />

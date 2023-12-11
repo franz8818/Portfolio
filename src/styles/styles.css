@@ -190,6 +190,10 @@
   padding: 20px 8px;
 }
 
+.card-text {
+  margin: 5px;
+}
+
 .shields img {
   margin-right: 10px;
   padding: 3px;

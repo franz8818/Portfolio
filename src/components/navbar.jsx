@@ -25,6 +25,21 @@ const Navbar = () => {
       scrollToSection(sectionId);
     }
   };
+
+  const handleDownloadCV = () => {
+    if (window.innerWidth <= 997) {
+      // Lógica para descargar el archivo cuando el ancho de la pantalla es 997px o menos
+      const downloadLink = document.createElement('a');
+      downloadLink.href = '/public/Front-End CV.pdf'; // Reemplaza con la ruta real de tu archivo CV
+      downloadLink.download = 'Front-End CV.pdf'; // Reemplaza con el nombre deseado del archivo
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+    } else {
+      // Redirige a la página de CV si el ancho de la pantalla es más de 997px
+      navigate('/cv');
+    }
+  };
   
 
   return (

@@ -65,7 +65,7 @@ const MainContent = () => {
       </div>
       {showGoTopButton && (
         <button id="goTopButton" onClick={handleGoTopClick}>
-          <i className="fas fa-chevron-up"></i> {/* Ajusta la clase según FontAwesome */}
+          <i className="fas fa-chevron-up"></i>
         </button>
       )}
     </div>
