@@ -34,7 +34,7 @@ function Proyects() {
           <div className="card-proyect col-12 col-lg-4">
             <Link to="/starwarsProyect" className="card-link">
               <div className="card">
-                <img className="img-proyects" src="StarWars Proyect/starwars-proyect-cover.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
+                <img className="img-proyects" src="StarWars Proyect/stwars-vista.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title ">StarWars Proyect</h3>
                   <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
@@ -44,6 +44,7 @@ function Proyects() {
                     <img className="info-card" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" />
                     <img className="info-card" src="https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react" />
                     <img className="info-card" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap" />
+                    <img className="info-card" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" style={{ width: '75px', height: 'auto' }}/>
                     <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
                   </div>
                 </div>

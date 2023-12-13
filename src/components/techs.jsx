@@ -27,6 +27,16 @@ function Info() {
                         </div>
                         <div className="col-3 col-md-3">
                             <div className="icon-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Boostrap" />
+                            </div>
+                        </div>
+                        <div className="col-3 col-md-3">
+                            <div className="icon-box">
+                                <img src="https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png" alt="node.js" />
+                            </div>
+                        </div>
+                        <div className="col-3 col-md-3">
+                            <div className="icon-box">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python" />
                             </div>
                         </div>
@@ -47,22 +57,12 @@ function Info() {
                         </div>
                         <div className="col-3 col-md-3">
                             <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Boostrap" />
-                            </div>
-                        </div>
-                        <div className="col-3 col-md-3">
-                            <div className="icon-box">
                                 <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" alt="Figma" />
                             </div>
                         </div>
                         <div className="col-3 col-md-3">
                             <div className="icon-box">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Adobe_Systems_logo_and_wordmark.svg/1477px-Adobe_Systems_logo_and_wordmark.svg.png" alt="Adobe" />
-                            </div>
-                        </div>
-                        <div className="col-3 col-md-3">
-                            <div className="icon-box">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" alt="Wordpress" />
                             </div>
                         </div>
                         <div className="col-3 col-md-3">

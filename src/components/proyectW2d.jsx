@@ -8,7 +8,7 @@ function W2d() {
 
     return (
         <>
-            <section className=" container w2d">
+            <section className="container w2d">
                 <div className="intro-proyect row">
                     <div className="intro-details col-6">
                         <div className="intro-name">
@@ -24,31 +24,31 @@ function W2d() {
                                 rel="noopener noreferrer" className="repo-link">
                                 <i className="fab fa-github" style={{ color: 'var(--shadow-)', fontSize: '2em' }}></i>
                             </a>
-                            </div>
-                            <div className="intro-text">
-                        <p className="info-text">
-                            Where2day" es una plataforma web que permite a los usuarios compartir y descubrir nuevas experiencias en su área local. El sitio está construido utilizando React para el front-end, CSS para el estilo, GSAP para animaciones, Python para el backend y Flask para el marco web.
-                            <br />
-                            <br />
-                            El objetivo principal de "Where2day" es inspirar a los usuarios a probar cosas nuevas y aprovechar al máximo sus días. Ya sea probar un nuevo restaurante, visitar una atracción local o probar una nueva actividad. "Where2day" ofrece un lugar para que los usuarios compartan sus experiencias y encuentren nuevas ideas sobre cosas que hacer.
-                            <br />
-                            <br />
-                            Para utilizar el sitio, los usuarios pueden crear una cuenta y comenzar a publicar sobre sus experiencias. Cada publicación incluye una descripción de la experiencia, fotografías y una etiqueta de ubicación. Luego, otros usuarios pueden explorar estas publicaciones para encontrar nuevas ideas sobre cosas que hacer en su área.
-                            <br />
-                            <br />
-                            Además de buscar publicaciones, los usuarios también pueden buscar experiencias y/o ubicaciones específicas utilizando la función de búsqueda del sitio. Esto hace que sea fácil encontrar exactamente lo que estás buscando, ya sea un tipo específico de actividad o una ubicación particular.
-                            <br />
-                            <br />
-                            En general, "Where2day" es un gran recurso para cualquiera que busque probar cosas nuevas y aprovechar al máximo sus días. Con su contenido generado por el usuario y su función de búsqueda fácil de usar, es una excelente manera de descubrir nuevas experiencias y aprovechar al máximo su tiempo.
-                        </p>
+                        </div>
+                        <div className="intro-pic">
+                            <img className="intro-img" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
+                            <img className="intro-img" src="Where2Day/w2dfeed.png" alt="Where2Day" />
+                            <img className="intro-img" src="Where2Day/w2dpost0.png" alt="Where2Day" />
+                            <img className="intro-img" src="Where2Day/w2dpost3.png" alt="Where2Day" />
                         </div>
                     </div>
-                    <div className="intro-pic col-6">
-                        <img className="intro-img" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
-                        <img className="intro-img" src="Where2Day/w2dfeed.png" alt="Where2Day" />
-                        <img className="intro-img" src="Where2Day/w2dpost0.png" alt="Where2Day" />
-                        <img className="intro-img" src="Where2Day/w2dpost3.png" alt="Where2Day" />
-                    </div>
+                <div className="intro-text col-6">
+                    <p className="info-text">
+                        Where2day" es una plataforma web que permite a los usuarios compartir y descubrir nuevas experiencias en su área local. El sitio está construido utilizando React para el front-end, CSS para el estilo, GSAP para animaciones, Python para el backend y Flask para el marco web.
+                        <br />
+                        <br />
+                        El objetivo principal de "Where2day" es inspirar a los usuarios a probar cosas nuevas y aprovechar al máximo sus días. Ya sea probar un nuevo restaurante, visitar una atracción local o probar una nueva actividad. "Where2day" ofrece un lugar para que los usuarios compartan sus experiencias y encuentren nuevas ideas sobre cosas que hacer.
+                        <br />
+                        <br />
+                        Para utilizar el sitio, los usuarios pueden crear una cuenta y comenzar a publicar sobre sus experiencias. Cada publicación incluye una descripción de la experiencia, fotografías y una etiqueta de ubicación. Luego, otros usuarios pueden explorar estas publicaciones para encontrar nuevas ideas sobre cosas que hacer en su área.
+                        <br />
+                        <br />
+                        Además de buscar publicaciones, los usuarios también pueden buscar experiencias y/o ubicaciones específicas utilizando la función de búsqueda del sitio. Esto hace que sea fácil encontrar exactamente lo que estás buscando, ya sea un tipo específico de actividad o una ubicación particular.
+                        <br />
+                        <br />
+                        En general, "Where2day" es un gran recurso para cualquiera que busque probar cosas nuevas y aprovechar al máximo sus días. Con su contenido generado por el usuario y su función de búsqueda fácil de usar, es una excelente manera de descubrir nuevas experiencias y aprovechar al máximo su tiempo.
+                    </p>
+                </div>
                 </div>
             </section>
         </>
