@@ -96,6 +96,10 @@
   padding: 20px 30px 30px 30px;
 }
 
+.hero-principal{
+justify-content: center;
+}
+
 .hero-principal h3 {
   color: var(--shadow-);
   font-weight: 700;
@@ -139,12 +143,10 @@
 /* FOTO PERFIL */
 .perfil {
   width: 90%;
-  /* Establece un ancho máximo para la imagen si es necesario */
+  margin-bottom: 90px;
 }
 
-.retrato img {
-  margin-top: 10px;
-}
+
 
 .title {
   margin-bottom: 20px;
@@ -192,6 +194,10 @@
 
 .card-text {
   margin: 5px;
+}
+
+.shields {
+  padding: 10px;
 }
 
 .shields img {
@@ -274,7 +280,7 @@
 }
 
 .tech-icons img {
-  max-width: 30%;
+  max-width: 40%;
   /* Establece el ancho máximo al 100% del contenedor */
   height: auto;
   /* Mantiene la proporción original de la imagen */
@@ -293,7 +299,7 @@
 .contact {
   display: flex;
   justify-content: center;
-  margin: 120px 10px;
+  margin: 90px 10px;
   padding: 0px 5px;
 }
 

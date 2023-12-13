@@ -30,12 +30,12 @@ function Cv() {
         <div className="info" style={{ padding: '10px', margin: "20px" }}>
             <section className="info-cv">
                 <header className="d-flex justify-content-between"> 
-                    <div className="perfil" style={{  marginTop:"60px" }}>
+                    <div className="perfil-cv" style={{  marginTop:"20px" }}>
                         <h1 style={{ fontWeight: '800', fontSize: '3.5em' }}>Franz Seidel Sánchez</h1>
                         <h2 style={{ fontSize: '1.8em', maxWidth: '400px', color: 'var(--shadow-)' }}>Desarrollador Frontend Diseñador web</h2>
                         <hr style={{ margin: '20px 0', height: '2px', backgroundColor: 'var(--shadow-)' }} />
                     </div>
-                    <div className="contacto" style={{ width: '350px', marginTop:"70px", marginRight:"40px"}}>
+                    {/* <div className="contacto" style={{ width: '350px', marginTop:"70px", marginRight:"40px"}}>
                         <div style={contactoStyles}>
                             <div style={iconStyles}>
                                 <a href="https://www.linkedin.com/in/franz8818/" target="_blank"><i className="fa-brands fa-linkedin" style={{ color: 'var(--white-)' }}></i></a>
@@ -43,7 +43,7 @@ function Cv() {
                             </div>
                             <h4 style={{marginTop: "10px", textAlign: 'center', color: 'var(--white-)'}}> <i className="fa-solid fa-download" style={{ marginRight: "5px" }}></i>Descargar CV</h4>
                         </div>
-                    </div>
+                    </div> */}
                 </header>
             </section>
             {/* Contenido principal */}
@@ -84,7 +84,7 @@ function Cv() {
                     </article>
                 </section>
                 {/* Contenido adicional, no pertenece directamente a */}
-                <aside style={{ width: '370px', marginTop: "35px" }}>
+                <aside style={{ width: '370px', marginTop: "5px" }}>
                     <section className="conocimientos">
                         <h4 style={{ fontWeight: '600' }}>Tecnologías</h4>
                         <article>
