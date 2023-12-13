@@ -4,9 +4,9 @@ function App() {
       {/* seccion Hero */}
       <section className="hero">
         <div className="hero-principal row">
-          <div className="hero-intro col-8">
+          <div className="hero-intro col-lg-8">
             <h3>Franz Seidel</h3>
-            <h1>Desarrollador Frontend & Diseñador web</h1>
+            <h1>Diseñador web <br /> Desarrollador Frontend</h1>
             <p className="info">
               Over the past 5 years I have been working with big eCommerce companies around the world.
               Offering services around them, working solo, leading small eCommerce teams, maintaining eCommerce websites and developing SAAS.
@@ -23,8 +23,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="retrato col-lg-4">
-            <img className="perfil" src="perfil.jpg" alt="foto de perfil" />
+          <div className="retrato col-lg-4 d-flex align-items-center justify-content-center">
+            <img className="perfil" src="perfil.png" alt="foto de perfil" />
           </div>
         </div>
       </section>

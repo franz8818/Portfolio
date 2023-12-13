@@ -14,6 +14,7 @@ function Proyects() {
                 <img className="img-proyects" src="Where2Day/landing-page-cover.png" alt="Where2Day" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title">Where2Day
+                  <h5>Poryecto colaborativo </h5>
                   </h3>
                   <p className="card-text"> Plataforma web que permite a los usuarios compartir y descubrir nuevas experiencias. </p>
                   <div className='shields'>

@@ -10,7 +10,7 @@ function W2d() {
         <>
             <section className=" container w2d">
                 <div className="intro-proyect row">
-                    <div className="intro-details col-md-6">
+                    <div className="intro-details col-6">
                         <div className="intro-name">
                             <h1>Where2Day</h1>
                             <h5>Una red social para compartir experiencias</h5>
@@ -43,7 +43,7 @@ function W2d() {
                         </p>
                         </div>
                     </div>
-                    <div className="intro-pic col-md-6">
+                    <div className="intro-pic col-6">
                         <img className="intro-img" src="Where2Day/landing-page-cover.png" alt="Where2Day" />
                         <img className="intro-img" src="Where2Day/w2dfeed.png" alt="Where2Day" />
                         <img className="intro-img" src="Where2Day/w2dpost0.png" alt="Where2Day" />

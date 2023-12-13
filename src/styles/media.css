@@ -16,7 +16,6 @@
     }
 
     .hero-principal h1 {
-        font-size: 2em !important;
         text-align: center !important;
     }
 
@@ -91,7 +90,6 @@
     }
 
     .hero-principal h1 {
-        font-size: 2.5em !important;
         margin: 0px 0px 20px 0px;
         text-align: center;
     }
@@ -182,7 +180,7 @@
     /* ------------------------------ HERO -------------------------------- */
 
     .hero-principal h3 {
-        font-size: 2em !important;
+        font-size: 1.3em !important;
     }
 
     .hero-principal h1 {
@@ -192,7 +190,12 @@
 
     .hero-principal p {
         margin: 20px !important;
+        font-size: 1.4em !important;
     }
+
+    .perfil {
+        width: 60%;
+      }
 
     /* ------------------------------ PROYECTS -------------------------------- */
 
@@ -240,7 +243,7 @@
     }
 
     .intro-text {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align: center;
     }
 
@@ -251,7 +254,7 @@
 }
 
 /* Breakpoint <997px */
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 996px) {
 
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
@@ -268,7 +271,7 @@
     }
 
     .retrato {
-        padding: 0px 2px 0px 2px;
+        padding: 0;
     }
 
     .retrato img {
@@ -320,6 +323,10 @@
         margin: 0px 0px 30px 0px;
     }
 
+    .perfil {
+       max-width: 50%;
+      }
+
     /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
 
     .intro-proyect {
@@ -342,7 +349,7 @@
     }
 
     .intro-img {
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
 
