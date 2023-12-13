@@ -48,14 +48,14 @@
     }
 
 
-    .intro-proyects {
-        padding: 0 !important;
-    }
-
     /* -----------------------PROYECTS INFO------------------------------------ */
 
+    .intro-name{
+        margin-top: 10px;
+    }
+
     .intro-name h1 {
-        font-size: 2.2em !important;
+        font-size: 1.8em !important;
     }
 
     .intro-name h4 {
@@ -68,15 +68,11 @@
     }
 
     .intro-name h6 {
-        font-size: 1.3em !important;
+        font-size: 1.1em !important;
     }
 
     .info-text {
         font-size: 0.8em;
-    }
-
-    .intro-text {
-        margin-top: 90px !important;
     }
 
     /* ------------------------------ CV -------------------------------- */
@@ -239,20 +235,16 @@
     /* -----------------------PROYECTS INFO------------------------------------ */
 
     .intro-name h1 {
-        font-size: 3.5em;
+        font-size: 2em !important;
     }
 
     .intro-name h4 {
-        font-size: 2.8em;
+        font-size: 1.6em !important;
         text-align: center;
     }
 
     .intro-name h6 {
-        font-size: 1.8em;
-    }
-
-    .intro-proyect {
-        padding: 0 !important;
+        font-size: 1.2em;
     }
 
     .intro-name h1,
@@ -262,7 +254,8 @@
     }
 
     .intro-name h5 {
-        text-align: center
+        text-align: center;
+        font-size: 1.3em;
     }
 
     .repo-link {
@@ -273,7 +266,7 @@
     .intro-text {
         font-size: 1.5em;
         text-align: center;
-        margin-top: 95px !important;
+        margin-top: 30px !important;
     }
 
     .intro-img {

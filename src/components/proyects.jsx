@@ -16,7 +16,7 @@ function Proyects() {
                   <h3 className="card-title">Where2Day
                   <h5>Poryecto colaborativo </h5>
                   </h3>
-                  <p className="card-text"> Plataforma web que permite a los usuarios compartir y descubrir nuevas experiencias. </p>
+                  <p className="card-text"> Comparte y descubre nuevas experiencias. </p>
                   <div className='shields'>
                     <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />
@@ -36,8 +36,8 @@ function Proyects() {
               <div className="card">
                 <img className="img-proyects" src="StarWars Proyect/stwars-vista.png" alt="StarWars Proyect" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
-                  <h3 className="card-title ">StarWars Proyect</h3>
-                  <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
+                  <h3 className="card-title ">StarWars Blog</h3>
+                  <p className="card-text">"Sitio web de Star Wars con infomarción de consulta y interacción con el usuario.</p>
                   <div className='shields'>
                     <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />
@@ -57,7 +57,7 @@ function Proyects() {
                 <img className="img-proyects" src="StarWars Rest API/starwarsAPI-cover.png" alt="StarWars Rest API" /> {/* img-fluid -> ADAPTA LA IMAGEN AL RESPONSIVE  */}
                 <div className="card-body">
                   <h3 className="card-title">StarWars Rest API</h3>
-                  <p className="card-text">"Where2day" is a web-based platform that allows users to share and discover new experiences in their local area.</p>
+                  <p className="card-text">API REST conectada a una base de datos con endpoints GET POST PUT DELETE implementados basado en tablas relacionales.</p>
                   <div className='shields'>
                     <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />

@@ -6,7 +6,7 @@ function App() {
         <div className="hero-principal row">
           <div className="hero-intro col-lg-8">
             <h3>Franz Seidel</h3>
-            <h1>Diseñador web <br /> Desarrollador Frontend</h1>
+            <h1>Diseñador web <br /> Desarrollador Front-end</h1>
             <p className="info">
               Over the past 5 years I have been working with big eCommerce companies around the world.
               Offering services around them, working solo, leading small eCommerce teams, maintaining eCommerce websites and developing SAAS.
