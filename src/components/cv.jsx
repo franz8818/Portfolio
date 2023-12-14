@@ -35,15 +35,6 @@ function Cv() {
                         <h2 style={{ fontSize: '1.8em', maxWidth: '400px', color: 'var(--shadow-)' }}>Desarrollador Frontend Diseñador web</h2>
                         <hr style={{ margin: '20px 0', height: '2px', backgroundColor: 'var(--shadow-)' }} />
                     </div>
-                    {/* <div className="contacto" style={{ width: '350px', marginTop:"70px", marginRight:"40px"}}>
-                        <div style={contactoStyles}>
-                            <div style={iconStyles}>
-                                <a href="https://www.linkedin.com/in/franz8818/" target="_blank"><i className="fa-brands fa-linkedin" style={{ color: 'var(--white-)' }}></i></a>
-                                <a href="https://github.com/franz8818" target="_blank"><i className="fa-brands fa-github" style={{ color: 'var(--white-)' }}></i></a>
-                            </div>
-                            <h4 style={{marginTop: "10px", textAlign: 'center', color: 'var(--white-)'}}> <i className="fa-solid fa-download" style={{ marginRight: "5px" }}></i>Descargar CV</h4>
-                        </div>
-                    </div> */}
                 </header>
             </section>
             {/* Contenido principal */}
@@ -51,19 +42,33 @@ function Cv() {
                 <section className="carrera" style={sectionStyles}>
                     <h3 style={{ fontWeight: '700' }}>Experiencia Profesional</h3>
                     <article>
-                        <h5 style={{ fontWeight: '500', marginTop: "20px" }}>Emprendedor - <i>Macht Bikes, tienda de artículos deportivos</i></h5>
+                        <h5 style={{ fontWeight: '500', marginTop: "20px" }}>Asistente de Marketing Digital, - <i>Luz Imobiliaria</i> </h5>
+                        <h6><i>01/2022 – presente</i></h6>
                         <ul style={{ marginRight: "120px" }}>
-                            <li>Gestioné e-commerce de la marca por medio de la plataforma Shopify.</li>
-                            <li>Experiencia en comercio electrónico con plataformas como Mercado Libre, Linio o Bike Exchange.</li>
-                            <li>Realicé estrategias de SEO mediante palabras claves, contenidos, enlaces de otros sitios web y monitoreo de resultados.</li>
+                        <li>Encargado del proyecto 2023 de producción de contenido por medio de Drones y grabaciones en locaciones interiores.</li>
+                        <li>Colabore con en el equipo de marketing en generar estrategias y tácticas en línea, como SEO, SEM, redes sociales, publicidad en línea y análisis web.</li>
+                        <li>Crear, editar y gestionar el contenido en diversos canales, como blogs, redes sociales y sitios web.</li>
+                        <li>Colabore con la organización y planeación de eventos y presencia en ferias comerciales para aumentar la visibilidad y la confianza de la marca.</li>
+                        <li>Colabore con el diseño del e-mail marketing, planeamos un contenido persuasivo e informativo en las campañas.</li>
                         </ul>
                     </article>
                     <article>
                         <h5 style={{ fontWeight: '500' }}>Agente de ventas - <a href="https://luzinmobiliaria.com/" target="_blank" rel="noopener noreferrer"><i>Luz Inmobiliaria</i></a></h5>
+                        <h6><i>02/2019 – 12/2021</i></h6>
                         <ul style={{ marginRight: "120px" }}>
-                            <li>Desarrollo de estrategias de ventas: logré un crecimiento significativo en los arriendos y ventas de inmuebles de la empresa.</li>
+                            <li>Desarrollo de estrategias de ventas: logre un crecimiento significativo en los arriendos y ventas de inmuebles de la empresa.</li>
                             <li>Fidelización de clientes: Por medio de una comunicación efectiva y regular con los clientes, logré resolver problemas e inquietudes, generando una lealtad perdurable durante años.</li>
                             <li>Negociación de precios de alquileres y ventas de inmuebles: Acuerdos mutuos sobre costos, plazos de entrega y otros términos.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h5 style={{ fontWeight: '500' }}> Asistente de ventas y marketing - <a href="https://luzinmobiliaria.com/" target="_blank" rel="noopener noreferrer"><i>Macht Bikes, tienda de artículos deportivos</i></a></h5>
+                        <h6><i>06/2016 – 12/2018</i></h6>
+                        <ul style={{ marginRight: "120px" }}>
+                            <li>Posicione la tienda en internet mediante un e-commerce por medio de la plataforma Shopify.</li>
+                            <li>Colabore para que la tienda dejare de ser solo física a entrar al comercio electrónico en plataformas como Mercado Libre, Linio o Bike Exchange.</li>
+                            <li>Realice estrategias de SEO mediante palabras claves, contenidos, enlaces de otros sitios web y monitoreo de resultados.</li>
+                            <li>Atención al cliente en tienda física. Desarrolle habilidades comunicativas y de persuasión.</li>
                         </ul>
                     </article>
                     <h3 style={{ fontWeight: '700', marginTop: "40px"}}>Proyectos</h3>

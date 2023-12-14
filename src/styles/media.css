@@ -276,7 +276,7 @@
 }
 
 /* Breakpoint <997px */
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 997px) {
 
     /* ------------------------------ HERO PRINCIPAL -------------------------------- */
 
@@ -338,19 +338,15 @@
 
     .proyects {
         margin: 0px 5px 0px 5px !important;
-        padding: 80px;
+        padding: 50px !important;
     }
 
-    .card-proyect .card {
-        margin: 0px 0px 30px 0px;
+    .card-proyect {
+        padding: 20px;
     }
 
     .retrato {
         margin-top: 0;
-    }
-
-    .perfil {
-        width: 60%;
     }
 
     /* -----PROYECTS INFO--------------------------------------------------------------------------------------------------- */
