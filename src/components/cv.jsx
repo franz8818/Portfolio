@@ -42,7 +42,7 @@ function Cv() {
                 <section className="carrera" style={sectionStyles}>
                     <h3 style={{ fontWeight: '700' }}>Experiencia Profesional</h3>
                     <article>
-                        <h5 style={{ fontWeight: '500', marginTop: "20px" }}>Asistente de Marketing Digital, - <i>Luz Imobiliaria</i> </h5>
+                        <h5 style={{ fontWeight: '500', marginTop: "20px" }}>Asistente de Marketing Digital, - <a href="https://luzinmobiliaria.com/" target="_blank" rel="noopener noreferrer"><i>Luz Inmobiliaria</i></a></h5>
                         <h6><i>01/2022 – presente</i></h6>
                         <ul style={{ marginRight: "120px" }}>
                         <li>Encargado del proyecto 2023 de producción de contenido por medio de Drones y grabaciones en locaciones interiores.</li>
@@ -62,7 +62,7 @@ function Cv() {
                         </ul>
                     </article>
                     <article>
-                        <h5 style={{ fontWeight: '500' }}> Asistente de ventas y marketing - <a href="https://luzinmobiliaria.com/" target="_blank" rel="noopener noreferrer"><i>Macht Bikes, tienda de artículos deportivos</i></a></h5>
+                        <h5 style={{ fontWeight: '500' }}> Asistente de ventas y marketing - <i>Macht Bikes, tienda de artículos deportivos</i></h5>
                         <h6><i>06/2016 – 12/2018</i></h6>
                         <ul style={{ marginRight: "120px" }}>
                             <li>Posicione la tienda en internet mediante un e-commerce por medio de la plataforma Shopify.</li>
