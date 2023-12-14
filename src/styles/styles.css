@@ -44,6 +44,7 @@
 
 .navbar-collapsed  {
   color: var(--white-);
+
 }
  
 .navbar-brand {
@@ -88,6 +89,19 @@
   /* Borde circular */
   margin-left: 10px;
   /* Derecha a Izquierda */
+}
+
+.navbar-toggler-icon.collapsed {
+  color: var(--white-); /* Cambia aquí al color que desees */
+}
+
+span.navbar.toggler-icon {
+  color: var(--white-);
+}
+
+/* Para el botón con la clase "navbar-toggler" */
+button.navbar-toggler {
+  color: var(--white-);
 }
 
 /* -----HERO--------------------------------------------------------------------------------------------------- */
@@ -150,8 +164,6 @@ justify-content: center;
   margin-bottom: 100px;
 }
 
-
-
 .title {
   margin-bottom: 20px;
   font-size: 3em;
@@ -174,7 +186,7 @@ justify-content: center;
   color: var(--black-);
   border: 1.3px solid;
   border-radius: 20px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   height: auto;
   
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

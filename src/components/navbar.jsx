@@ -28,7 +28,6 @@ const Navbar = () => {
 
   const handleDownloadCV = () => {
     if (window.innerWidth <= 997) {
-      // Lógica para descargar el archivo cuando el ancho de la pantalla es 997px o menos
       const downloadLink = document.createElement('a');
       downloadLink.href = '/public/Front-End CV.pdf'; // Reemplaza con la ruta real de tu archivo CV
       downloadLink.download = 'Front-End CV.pdf'; // Reemplaza con el nombre deseado del archivo
@@ -40,7 +39,7 @@ const Navbar = () => {
       navigate('/cv');
     }
   };
-  
+
 
   return (
     <>
@@ -58,7 +57,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/cv" onClick={handleDownloadCV}>CV</Link>
+                <Link className="nav-link" to="/cv" onClick={(e) => { e.preventDefault(); handleDownloadCV(); }}>CV</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/franz8818/" target="_blank" rel="noopener noreferrer">Linkedin</a>

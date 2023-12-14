@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-function Swp() {
+function Sra() {
     useEffect(() => {
         // Al montar el componente, desplázate al principio
         window.scrollTo(0, 0);
@@ -15,9 +15,8 @@ function Swp() {
                             <h1>StarWars Rest API</h1>
                             <h5>Página web de consulta e interacción utilizando la API SWAPI</h5>
                             <h4>Mis funciones</h4>
-                            <h6>Desarrollo del <br /> Front-end/Back-End</h6>
-                            <h6>Diseño de la página web</h6>
-                            <h6>Diseño de funcionalidades</h6>
+                            <h6>Desarrollo del Back-End</h6>
+                            <h6>Creación de tablas relacionales</h6>
                             <a
                                 href="https://github.com/franz8818/StarWars-Rest-API"
                                 target="_blank"
@@ -26,33 +25,28 @@ function Swp() {
                             </a>
                         </div>
                         <div className="intro-pic">
-                            <img className="intro-img" src="StarWars Proyect/stwars-vista.png" alt="StarWarsProyect" />
-                            <img className="intro-img" src="StarWars Proyect/stwars-fav2.png" alt="StarWarsProyect" />
-                            <img className="intro-img" src="StarWars Proyect/stwars-cha.png" alt="StarWarsProyect" />
-                            <img className="intro-img" src="StarWars Proyect/stwars-planet.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/starwarsAPI-cover.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/people.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/postman.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/postman2.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/postman3.png" alt="StarWarsProyect" />
+                            <img className="intro-img" src="StarWars Rest API/user.png" alt="StarWarsProyect" />
                         </div>
                     </div>
                     <div className="intro-text col-6">
                         <p className="info-text">
-                            Sitio web de información de la franquicia  Star Wars con funcionalidades y la utilización de la API de SWAPI.
+                            Mediante el lenguaje de programación Python utilice el framework Flask junto con Flask-SQLAlchemy para crear una API que maneja información sobre usuarios, favoritos, personas, planetas y vehículos de la saga StarWars. Con el objetivo de entender de que se trata el Back-End y el uso de un lenguaje diferente.
                             <br />
                             <br />
-                            El sitio web lo desarrolo bajo el marco de desarrollo web NextJS y la biblioteca React. Utilicé lenguajes como JavaScript, HTML y CSS para crear el sitio.
+                            Las tablas en la base de datos representan información específica sobre personajes, planetas y vehículos, respectivamente. Se han definido varios endpoints para realizar operaciones CRUD (Create, Read, Update, Delete), 
+                        	Uso de operaciones básicas como obtener todos los elementos, obtener uno por su ID, crear uno nuevo, modificar y eliminar.
+                           <br />
+                            <br />
+                            Este código proporciona una API funcional y organizada para manejar información relacionada con el universo de Star Wars, puede ser implementado como un servicio web para proporcionar acceso y manipulación de datos a través de los endpoints definidos. 
                             <br />
                             <br />
-                            La Swapi.dev. nos proporciona una gran cantidad de información sobre el universo de Star Wars, incluida información sobre personajes, planetas, vehículos y naves espaciales..
+                            Además, la integración con Flask, facilita la administración de los datos a través de una interfaz de administración web.                            <br />
                             <br />
-                            <br />
-                            El usuario puede interactuar con los datos de la página, mediante el favoritos de navbar, puede agregar los personaje o/y planetas que desee.
-                            <br />
-                            <br />
-                            En la página de inicio del sitio, los usuarios encontrarán una variedad de "tarjetas" que contienen información sobre personajes, planetas, vehículos y naves espaciales. Los usuarios pueden hacer clic en el botón "Más información" en cualquiera de estas tarjetas para acceder a información más detallada sobre el tema específico. En general, el sitio web ofrece una experiencia interactiva e informativa para los fanáticos de la franquicia Star Wars.
-                            <br />
-                            <br />
-                            Para hacer que el sitio fuera más atractivo visualmente y rápido , implementé técnicas de diseño responsivo, con una interfaz visualmente atractiva y fácil de usar para los usuarios meidante las clases de Boostrap y componentes de React para una experiencia SPA.
-                            <br />
-                            <br />
-                            En general, el sitio web es un proyecto desarrollado con tecnologías y herramientas modernas de desarrollo web que utilizan en el mercado laboral para ofrecer una experiencia rica y atractiva a los usuarios.
                         </p>
                     </div>
                 </div>
@@ -62,4 +56,4 @@ function Swp() {
 
 }
 
-export default Swp
+export default Sra

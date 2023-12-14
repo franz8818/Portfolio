@@ -16,7 +16,7 @@ function Proyects() {
                   <h3 className="card-title">Where2Day
                   <h5>Poryecto colaborativo </h5>
                   </h3>
-                  <p className="card-text"> Comparte y descubre nuevas experiencias. </p>
+                  <p className="card-text"> Comparte y descubre nuevas experiencias. Red social interactiva  </p>
                   <div className='shields'>
                     <img className="info-card" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff" />
                     <img className="info-card" src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3" />
@@ -24,7 +24,7 @@ function Proyects() {
                     <img className="info-card" src="https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react" />
                     <img className="info-card" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap" />
                     <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
-                    <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />
+                    <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '70px', height: 'auto' }} />
                     <img className="info-card" src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff" />
                   </div>
                 </div>
@@ -60,7 +60,7 @@ function Proyects() {
                   <p className="card-text">API REST conectada a una base de datos con endpoints GET POST PUT DELETE implementados basado en tablas relacionales.</p>
                   <div className='shields'>
                     <img className="info-card" src="http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
-                    <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '60px', height: 'auto' }} />
+                    <img className="info-card" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" style={{ width: '70px', height: 'auto' }} />
                     <img className="info-card" src="https://img.shields.io/badge/Postman-F6BB43?style=flat-square&logo=Postman&logoColor=white" />
                     <img className="info-card" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" />
                   </div>
