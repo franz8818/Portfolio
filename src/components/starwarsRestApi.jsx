@@ -35,7 +35,7 @@ function Sra() {
                     </div>
                     <div className="intro-text col-6">
                         <p className="info-text">
-                            Mediante el lenguaje de programación Python utilice el framework Flask junto con Flask-SQLAlchemy para crear una API que maneja información sobre usuarios, favoritos, personas, planetas y vehículos de la saga StarWars. Con el objetivo de entender de que se trata el Back-End y el uso de un lenguaje diferente.
+                            Mediante el lenguaje de programación Python utilicé el framework Flask junto con Flask-SQLAlchemy para crear una API que maneja información sobre usuarios, favoritos, personas, planetas y vehículos de la saga StarWars. Con el objetivo de entender de que se trata el Back-End y el uso de un lenguaje diferente.
                             <br />
                             <br />
                             Las tablas en la base de datos representan información específica sobre personajes, planetas y vehículos, respectivamente. Se han definido varios endpoints para realizar operaciones CRUD (Create, Read, Update, Delete), 
