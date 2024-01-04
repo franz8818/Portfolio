@@ -45,7 +45,8 @@ function Sra() {
                             Este código proporciona una API funcional y organizada para manejar información relacionada con el universo de Star Wars, puede ser implementado como un servicio web para proporcionar acceso y manipulación de datos a través de los endpoints definidos. 
                             <br />
                             <br />
-                            Además, la integración con Flask, facilita la administración de los datos a través de una interfaz de administración web.                            <br />
+                            Además, la integración con Flask, facilita la administración de los datos a través de una interfaz de administración web.
+                            <br />
                             <br />
                         </p>
                     </div>
