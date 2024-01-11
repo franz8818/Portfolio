@@ -6,7 +6,7 @@ function App() {
         <div className="hero-principal row">
           <div className="hero-intro col-lg-8">
             <h3>Franz Seidel</h3>
-            <h1>Diseñador web <br />Front-end Designer</h1>
+            <h1>Front-end Designer</h1>
             <p className="info">
             Con experiencia en diseño y marketing digital, me destaco por mi enfoque proactivo y orientado satisfacer la experiencia y necesidades del cliente.
             </p>
