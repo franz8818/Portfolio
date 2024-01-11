@@ -37,7 +37,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            Coded with ♥︎ by Franz Seidel 
+            Code with ♥︎ and React by Franz Seidel 
                 <div className="contact-div">
                 <div><i className="cel fa-solid fa-mobile-screen-button"></i>+57 316 270 2385</div>
                 <div><i className="mail fa-regular fa-envelope"></i>franz8818@gmail.com</div>
