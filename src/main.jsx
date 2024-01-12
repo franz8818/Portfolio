@@ -8,6 +8,8 @@ import Cv from './components/cv.jsx';
 import W2d from './components/proyectW2d.jsx';
 import StarWarsP from './components/starwarsProyect.jsx';
 import StarWarsRest from './components/starwarsRestApi.jsx';
+import Geeks from './components/geeks.jsx';
+import Sena from './components/sena.jsx';
 import Techs from './components/techs.jsx';
 import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
@@ -83,6 +85,8 @@ const Main = () => {
           <Route path="/proyectW2d" element={<W2d />} />
           <Route path="/starwarsProyect" element={<StarWarsP />} />
           <Route path="/starwarsRestApi" element={<StarWarsRest />} />
+          <Route path="/geeks" element={<Geeks />} />
+          <Route path="/sena" element={<Sena />} />
         </Routes>
         <Footer />
       </>

@@ -15,10 +15,10 @@ function App() {
                 <img src="https://vectorseek.com/wp-content/uploads/2023/08/UADE.-Logo-Vector.svg-.png" alt="UADE" />
               </div>
               <div className="hero-certi">
-                <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943" alt="4Geeks" />
+                <img href="components/geeks.jsx" src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943" alt="4Geeks" />
               </div>
               <div className="hero-certi">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/2090px-Sena_Colombia_logo.svg.png" alt="SENA" />
+                <img href="src/components/sena.jsx" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/2090px-Sena_Colombia_logo.svg.png" alt="SENA" />
               </div>
             </div>
           </div>
